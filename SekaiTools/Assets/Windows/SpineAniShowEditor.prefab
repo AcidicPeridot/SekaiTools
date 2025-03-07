@@ -1443,12 +1443,22 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "Spine\u52A8\u753B\u5C55\u793A\u7F16\u8F91\u5668"
+      value: Spine Animation Showcase Editor
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
       value: EDITOR
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140956335463184399, guid: dd05059dbfecd374f82ccfa7699339ca,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 718.173
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140956335463184399, guid: dd05059dbfecd374f82ccfa7699339ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 489.5862
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd05059dbfecd374f82ccfa7699339ca, type: 3}

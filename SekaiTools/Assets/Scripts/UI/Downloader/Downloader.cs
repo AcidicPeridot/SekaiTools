@@ -173,7 +173,7 @@ namespace SekaiTools.UI.Downloader
 
                 RefreshTextDownload();
                 perecntBar.priority = (float)i / downloadFiles.Length;
-                perecntBar.info = $"正在下载 {Path.GetFileName(downloadFileInfo.savePath)}";
+                perecntBar.info = $"Downloading {Path.GetFileName(downloadFileInfo.savePath)}";
 
                 string dir = Path.GetDirectoryName(downloadFileInfo.savePath);
                 if (!Directory.Exists(dir))
@@ -187,7 +187,7 @@ namespace SekaiTools.UI.Downloader
                     case ExistingFileProcessingMode.Pass:
                         if (File.Exists(downloadFileInfo.savePath))
                         {
-                            messageArea.AddLine($"{fileName} 已存在，跳过");
+                            messageArea.AddLine($"{fileName} already exists, skipping");
                             downloaderLogItem.endTime = DateTime.Now;
                             downloaderLogItem.downloadResult = DownloadResult.PassExist;
                             downloaderLog.Add(downloaderLogItem);
@@ -218,7 +218,7 @@ namespace SekaiTools.UI.Downloader
                         }
                         currentGetRequest = getRequest;
                         getRequest.SendWebRequest();
-                        messageArea.AddLine($"{fileName} 开始下载");
+                        messageArea.AddLine($"{fileName} Download Start");
                         while (!getRequest.isDone)
                         {
                             yield return null;
@@ -226,18 +226,18 @@ namespace SekaiTools.UI.Downloader
                         string responseCode = getRequest.responseCode.ToString();
                         if (getRequest.error != null)
                         {
-                            perecntBar.info = $"正在等待重试({retryWaitTime}s) {fileName}";
-                            messageArea.AddLine($"{fileName} 下载失败，{getRequest.error}");
+                            perecntBar.info = $"Waiting to retry ({retryWaitTime}s) {fileName}";
+                            messageArea.AddLine($"{fileName} download failed，{getRequest.error}");
                             if (t == retryTimes - 1)
                             {
-                                messageArea.AddLine($"{fileName} 超出最大重试次数");
+                                messageArea.AddLine($"{fileName}  Maximum number of retries exceeded.");
                                 downloaderLogItem.error = getRequest.error;
                                 downloaderLogItem.downloadResult = DownloadResult.Failure;
                                 if (File.Exists(downloadFileInfo.savePath))
                                     File.Delete(downloadFileInfo.savePath);
                             }
                             yield return new WaitForSeconds(retryWaitTime);
-                            perecntBar.info = $"第{t + 1}次重试 {fileName}";
+                            perecntBar.info = $"{fileName} Retry {t + 1}";
                         }
                         else
                         {
@@ -247,7 +247,7 @@ namespace SekaiTools.UI.Downloader
                             if (!Directory.Exists(saveFolder))
                                 Directory.CreateDirectory(saveFolder);
                             File.Copy(tempFilePath, downloadFileInfo.savePath);
-                            messageArea.AddLine($"{fileName} 下载完成");
+                            messageArea.AddLine($"{fileName} Download complete");
                             downloaderLogItem.downloadResult = DownloadResult.Complete;
                             currentGetRequest = null;
                             break;
@@ -260,7 +260,7 @@ namespace SekaiTools.UI.Downloader
             }
             RefreshTextDownload();
             perecntBar.priority = 1;
-            perecntBar.info = "已完成";
+            perecntBar.info = "Done";
             OnComplete?.Invoke();
             if (!disableLogView)
             {
@@ -276,7 +276,7 @@ namespace SekaiTools.UI.Downloader
         private void RefreshTextDownload()
         {
             DownloadResultCount downloadResultCount = GetDownloadResultCount();
-            txtDownload.text = $"下载 成功{downloadResultCount.countComplete} 跳过{downloadResultCount.CountPass} 失败{downloadResultCount.countFailure} / {downloadFiles.Length}个文件";
+            txtDownload.text = $"Successful Downloads: {downloadResultCount.countComplete}, Skipped: {downloadResultCount.CountPass}, Failed: {downloadResultCount.countFailure} / {downloadFiles.Length} Total Files";
         }
 
         public void ViewErrorLog()
@@ -312,16 +312,16 @@ namespace SekaiTools.UI.Downloader
                     case DownloadResult.Null:
                         break;
                     case DownloadResult.Failure:
-                        outStrs.Add($"[{logItem.endTime:T}] 下载失败 {logItem.error}\n{logItem.downloadFileInfo.url}");
+                        outStrs.Add($"[{logItem.endTime:T}] Download Failure {logItem.error}\n{logItem.downloadFileInfo.url}");
                         break;
                     case DownloadResult.Complete:
-                        outStrs.Add($"[{logItem.endTime:T}] 下载完成\n{logItem.downloadFileInfo.url}");
+                        outStrs.Add($"[{logItem.endTime:T}] Download Complete\n{logItem.downloadFileInfo.url}");
                         break;
                     case DownloadResult.PassExist:
-                        outStrs.Add($"[{logItem.endTime:T}] 已存在，跳过\n{logItem.downloadFileInfo.url}");
+                        outStrs.Add($"[{logItem.endTime:T}] Already exists, skipping\n{logItem.downloadFileInfo.url}");
                         break;
                     case DownloadResult.PassSameHash:
-                        outStrs.Add($"[{logItem.endTime:T}] hash相同，跳过\n{logItem.downloadFileInfo.url}");
+                        outStrs.Add($"[{logItem.endTime:T}] Same Hash, skipping\n{logItem.downloadFileInfo.url}");
                         break;
                     default:
                         break;

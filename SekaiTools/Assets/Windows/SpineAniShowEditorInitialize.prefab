@@ -651,7 +651,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u786E\u5B9A"
+  m_Text: Apply
 --- !u!1 &3864211930422884936
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,7 +956,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6A21\u677F"
+  m_Text: Template
 --- !u!1 &8457352677602834823
 GameObject:
   m_ObjectHideFlags: 0
@@ -1116,7 +1116,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u66F4\u6362"
+  m_Text: Select
 --- !u!1 &8457352678401273668
 GameObject:
   m_ObjectHideFlags: 0
@@ -1490,7 +1490,7 @@ PrefabInstance:
     - target: {fileID: 3737195362018688938, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u5B58\u6863"
+      value: Data
       objectReference: {fileID: 0}
     - target: {fileID: 3737195363103087863, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
@@ -1815,7 +1815,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: "\u5B58\u6863"
+      value: Data
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
@@ -2085,12 +2085,22 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "Spine\u52A8\u753B\u5C55\u793A\u7F16\u8F91\u5668\u521D\u59CB\u5316"
+      value: Initialize Spine Animation Showcase Editor
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
       value: INITIALIZE
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140956335463184399, guid: dd05059dbfecd374f82ccfa7699339ca,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 839.547
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140956335463184399, guid: dd05059dbfecd374f82ccfa7699339ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 550.2733
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd05059dbfecd374f82ccfa7699339ca, type: 3}
@@ -2305,7 +2315,7 @@ PrefabInstance:
     - target: {fileID: 6719375640383470836, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
       propertyPath: m_Text
-      value: "\u65B0\u5EFA\u5B58\u6863"
+      value: Create New Data
       objectReference: {fileID: 0}
     - target: {fileID: 6719375640383470836, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
@@ -2535,7 +2545,7 @@ PrefabInstance:
     - target: {fileID: 6719375640383470836, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
       propertyPath: m_Text
-      value: "\u8BFB\u53D6\u5B58\u6863"
+      value: Load Data
       objectReference: {fileID: 0}
     - target: {fileID: 6719375640383470836, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
@@ -2713,6 +2723,16 @@ PrefabInstance:
         type: 3}
       propertyPath: fileFilter
       value: "Spine\u52A8\u753B\u5C55\u793A\u573A\u666F (*.sas)|*.sas|Others (*.*)|*.*"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961337316662349046, guid: ac70e5bcb401b5847b99be699b856318,
+        type: 3}
+      propertyPath: m_Text
+      value: Select
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482859041544747334, guid: ac70e5bcb401b5847b99be699b856318,
+        type: 3}
+      propertyPath: m_Text
+      value: Reset
       objectReference: {fileID: 0}
     - target: {fileID: 8482859041870813094, guid: ac70e5bcb401b5847b99be699b856318,
         type: 3}

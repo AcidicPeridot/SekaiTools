@@ -312,7 +312,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 45, y: 45}
-  m_SizeDelta: {x: 660, y: 110}
+  m_SizeDelta: {x: 756.387, y: 110}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &5413891357155429628
 CanvasRenderer:
@@ -538,7 +538,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6A21\u5F0F"
+  m_Text: Mode
 --- !u!1 &5633622726294645915
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,7 +617,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6837\u5F0F"
+  m_Text: Design
 --- !u!1 &5667982385783546423
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,6 +827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlScript: {fileID: 6697310498341398576}
+  mainCameraRender: 0
   parentWindowEffect: 1
   parentWindowRaycast: 1
   OnClose:
@@ -919,7 +920,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u751F\u6210"
+  m_Text: Apply
 --- !u!1 &6697310499002658546
 GameObject:
   m_ObjectHideFlags: 0
@@ -1350,7 +1351,7 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "Live2D\u52A8\u753B\u9884\u89C8\u751F\u6210\u5668"
+      value: Live2D Animation Preview Generator
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
@@ -1792,7 +1793,7 @@ PrefabInstance:
     - target: {fileID: 6719375640383470836, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
       propertyPath: m_Text
-      value: "\u6240\u6709\u6A21\u578B"
+      value: All Models
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31adb7ddd08070742b08b1d07d3881de, type: 3}
@@ -1859,7 +1860,7 @@ PrefabInstance:
     - target: {fileID: 2609821400856594503, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 260
+      value: 314.071
       objectReference: {fileID: 0}
     - target: {fileID: 2609821400856594503, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
@@ -1904,7 +1905,7 @@ PrefabInstance:
     - target: {fileID: 2609821400856594503, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 540
+      value: 607.04
       objectReference: {fileID: 0}
     - target: {fileID: 2609821400856594503, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
@@ -1974,7 +1975,7 @@ PrefabInstance:
     - target: {fileID: 6719375640383470836, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
       propertyPath: m_Text
-      value: "\u5355\u4E00\u573A\u666F"
+      value: Single Scene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31adb7ddd08070742b08b1d07d3881de, type: 3}

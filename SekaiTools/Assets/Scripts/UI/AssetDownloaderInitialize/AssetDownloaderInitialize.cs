@@ -81,7 +81,7 @@ namespace SekaiTools.UI.AssetDownloaderInitialize
 
             string cookie = File.ReadAllText(gIP_AssetList.lfsi_Cookie.SelectedPath);
 
-            WindowController.ShowCancelOK($"即将下载{bundlesItems.Count}个文件", $"约{sizeStr}",
+            WindowController.ShowCancelOK($"Downloading {bundlesItems.Count}个文件", $"about {sizeStr}",
                 () =>
                 {
                     string urlHead = gIP_AssetList.GetURLHead();

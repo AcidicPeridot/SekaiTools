@@ -510,7 +510,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u786E\u5B9A"
+  m_Text: Apply
 --- !u!1 &7491285143464767881
 GameObject:
   m_ObjectHideFlags: 0
@@ -1209,8 +1209,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 30, y: -225}
-  m_SizeDelta: {x: 230, y: 33}
+  m_AnchoredPosition: {x: 30, y: -236.29}
+  m_SizeDelta: {x: 230, y: 72.578}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &8341802059242134949
 CanvasRenderer:
@@ -1253,7 +1253,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "URL\u5934\u90E8\u5B57\u7B26\u4E32"
+  m_Text: URL Header String
 --- !u!1 &8341802059471968923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1598,7 +1598,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8894784784969685414
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1663,7 +1663,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: cookie
+      value: Cookie
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
@@ -1923,7 +1923,7 @@ PrefabInstance:
     - target: {fileID: 3737195362018688938, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u6587\u4EF6\u7B5B\u9009"
+      value: Asset Filter
       objectReference: {fileID: 0}
     - target: {fileID: 3737195363103087863, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
@@ -2103,7 +2103,7 @@ PrefabInstance:
     - target: {fileID: 4804129968225264594, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u6587\u4EF6\u7B5B\u9009"
+      value: Asset Filter
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d89a980d3869864b9e0015949b1f0fe, type: 3}
@@ -2123,7 +2123,7 @@ PrefabInstance:
     - target: {fileID: 3737195362018688938, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u6570\u636E\u8868"
+      value: Asset List
       objectReference: {fileID: 0}
     - target: {fileID: 3737195363103087863, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
@@ -2303,7 +2303,7 @@ PrefabInstance:
     - target: {fileID: 4804129968225264594, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u6570\u636E\u8868"
+      value: Asset List
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d89a980d3869864b9e0015949b1f0fe, type: 3}
@@ -2463,12 +2463,22 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "\u6E38\u620F\u8D44\u6E90\u4E0B\u8F7D\u5668\u521D\u59CB\u5316"
+      value: Initialize Game Asset Downloader
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
       value: INITIALIZE
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140956335463184399, guid: dd05059dbfecd374f82ccfa7699339ca,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 700.782
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140956335463184399, guid: dd05059dbfecd374f82ccfa7699339ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 480.89102
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd05059dbfecd374f82ccfa7699339ca, type: 3}
@@ -2488,7 +2498,7 @@ PrefabInstance:
     - target: {fileID: 3737195362018688938, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u4E0B\u8F7D\u8BBE\u7F6E"
+      value: Download Settings
       objectReference: {fileID: 0}
     - target: {fileID: 3737195363103087863, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
@@ -2668,7 +2678,7 @@ PrefabInstance:
     - target: {fileID: 4804129968225264594, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u4E0B\u8F7D\u8BBE\u7F6E"
+      value: Download Settings
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d89a980d3869864b9e0015949b1f0fe, type: 3}
@@ -2688,7 +2698,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: "\u4FDD\u5B58\u4F4D\u7F6E"
+      value: Save Location
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
@@ -2815,6 +2825,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8894784784969685414}
     m_Modifications:
+    - target: {fileID: 128841902207365618, guid: 577f06264667dc24b835d1c7beaf8e55,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 71.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 128841902207365618, guid: 577f06264667dc24b835d1c7beaf8e55,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -125
+      objectReference: {fileID: 0}
+    - target: {fileID: 128841902207365619, guid: 577f06264667dc24b835d1c7beaf8e55,
+        type: 3}
+      propertyPath: m_Text
+      value: Data Sheet Type
+      objectReference: {fileID: 0}
+    - target: {fileID: 252007052598708562, guid: 577f06264667dc24b835d1c7beaf8e55,
+        type: 3}
+      propertyPath: m_Text
+      value: Data Sheet
+      objectReference: {fileID: 0}
     - target: {fileID: 541626931911224117, guid: 577f06264667dc24b835d1c7beaf8e55,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2920,10 +2950,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6554612480593034747, guid: 577f06264667dc24b835d1c7beaf8e55,
+        type: 3}
+      propertyPath: m_Text
+      value: Reset
+      objectReference: {fileID: 0}
     - target: {fileID: 7515123112714482016, guid: 577f06264667dc24b835d1c7beaf8e55,
         type: 3}
       propertyPath: m_Name
       value: AssetListGetter
+      objectReference: {fileID: 0}
+    - target: {fileID: 9076282378054944843, guid: 577f06264667dc24b835d1c7beaf8e55,
+        type: 3}
+      propertyPath: m_Text
+      value: Select
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 577f06264667dc24b835d1c7beaf8e55, type: 3}
@@ -2952,6 +2992,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7491285143752566824}
     m_Modifications:
+    - target: {fileID: 1054051869678378613, guid: c2e471664827c4e42a5c22507044f66e,
+        type: 3}
+      propertyPath: m_Text
+      value: Reset
+      objectReference: {fileID: 0}
     - target: {fileID: 1054051870023331988, guid: c2e471664827c4e42a5c22507044f66e,
         type: 3}
       propertyPath: m_Pivot.x
@@ -3062,6 +3107,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FolderSelectItem
       objectReference: {fileID: 0}
+    - target: {fileID: 3000375339773373381, guid: c2e471664827c4e42a5c22507044f66e,
+        type: 3}
+      propertyPath: m_Text
+      value: Select Folder
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2e471664827c4e42a5c22507044f66e, type: 3}
 --- !u!224 &9035547214683661008 stripped
@@ -3092,7 +3142,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: "\u4E0B\u8F7D\u76EE\u5F55"
+      value: Download Catalog
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
@@ -3222,7 +3272,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: "URL\u5934\u90E8"
+      value: URL Header
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
@@ -3532,7 +3582,7 @@ PrefabInstance:
     - target: {fileID: 4804129968225264594, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u6587\u4EF6\u8BBE\u7F6E"
+      value: File Settings
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d89a980d3869864b9e0015949b1f0fe, type: 3}
@@ -3551,7 +3601,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6007087167293140, guid: 70efa831f47ebd64c9ec20e435552257, type: 3}
       propertyPath: m_Text
-      value: "\u4EC5\u4E0B\u8F7D\u6307\u5B9A\u76EE\u5F55\u4E0B\u7684\u6587\u4EF6"
+      value: Only Download Files in Specified Directory
       objectReference: {fileID: 0}
     - target: {fileID: 6007087167293140, guid: 70efa831f47ebd64c9ec20e435552257, type: 3}
       propertyPath: m_Color.b
@@ -3674,6 +3724,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6879956766738734055, guid: 70efa831f47ebd64c9ec20e435552257,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 77.235
+      objectReference: {fileID: 0}
+    - target: {fileID: 6879956766738734055, guid: 70efa831f47ebd64c9ec20e435552257,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 6879956766738734055, guid: 70efa831f47ebd64c9ec20e435552257,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076294
       objectReference: {fileID: 0}
     - target: {fileID: 8132522287460125740, guid: 70efa831f47ebd64c9ec20e435552257,
         type: 3}
@@ -3840,12 +3905,57 @@ PrefabInstance:
     - target: {fileID: 2055606837818565337, guid: 640541da20a5f254ebb638b49c973d8f,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055606837833638724, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_Text
+      value: Wait Time
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055606837876607974, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_Text
+      value: Retries
+      objectReference: {fileID: 0}
+    - target: {fileID: 4085056489105661262, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 440.00003
+      objectReference: {fileID: 0}
+    - target: {fileID: 4085056489291623374, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 455.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739756085321965437, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_Text
+      value: Overwrite Existing Files
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739756086340876523, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_Text
+      value: Skip Files with Identical Hash
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739756086480939517, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_Text
+      value: Skip Existing Files
       objectReference: {fileID: 0}
     - target: {fileID: 5182035787057846462, guid: 640541da20a5f254ebb638b49c973d8f,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6217964327260804524, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_Text
+      value: File Overwrite Settings
+      objectReference: {fileID: 0}
+    - target: {fileID: 6217964329130680654, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_Text
+      value: Retry Settings
       objectReference: {fileID: 0}
     - target: {fileID: 6398646008645397732, guid: 640541da20a5f254ebb638b49c973d8f,
         type: 3}
@@ -3888,7 +3998,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: "\u6240\u9700\u6570\u636E\u8868"
+      value: Required Data Sheet
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
@@ -4015,6 +4125,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8894784784969685414}
     m_Modifications:
+    - target: {fileID: 6574996340104398617, guid: e7c98b1a50a68a3449e5a471ab47d0bd,
+        type: 3}
+      propertyPath: m_Text
+      value: Reset
+      objectReference: {fileID: 0}
     - target: {fileID: 6574996340449552888, guid: e7c98b1a50a68a3449e5a471ab47d0bd,
         type: 3}
       propertyPath: m_Pivot.x
@@ -4124,6 +4239,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LoadFileSelectItem (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8952262960230052521, guid: e7c98b1a50a68a3449e5a471ab47d0bd,
+        type: 3}
+      propertyPath: m_Text
+      value: Select
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7c98b1a50a68a3449e5a471ab47d0bd, type: 3}

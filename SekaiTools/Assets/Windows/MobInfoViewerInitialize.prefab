@@ -430,7 +430,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u786E\u5B9A"
+  m_Text: Apply
 --- !u!1 &7914969131368037370
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,7 +643,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6587\u4EF6\u5939\u7ED3\u6784"
+  m_Text: Folder Stucture
 --- !u!1 &8317413059168192143
 GameObject:
   m_ObjectHideFlags: 0
@@ -869,7 +869,7 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "\u914D\u89D2\u4FE1\u606F\u67E5\u770B\u5668\u521D\u59CB\u5316"
+      value: Initialize Mob Info Viewer
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
@@ -894,7 +894,7 @@ PrefabInstance:
     - target: {fileID: 3737195362018688938, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u5267\u60C5\u6587\u4EF6"
+      value: Sample
       objectReference: {fileID: 0}
     - target: {fileID: 3737195363103087863, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
@@ -1069,7 +1069,7 @@ PrefabInstance:
     - target: {fileID: 4804129968225264594, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u5267\u60C5\u6587\u4EF6"
+      value: Sample
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d89a980d3869864b9e0015949b1f0fe, type: 3}
@@ -1220,7 +1220,7 @@ PrefabInstance:
     - target: {fileID: 3737195362018688938, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u6570\u636E\u8868"
+      value: Master Tables
       objectReference: {fileID: 0}
     - target: {fileID: 3737195363103087863, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
@@ -1395,7 +1395,7 @@ PrefabInstance:
     - target: {fileID: 4804129968225264594, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u6570\u636E\u8868"
+      value: Master Tables
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d89a980d3869864b9e0015949b1f0fe, type: 3}
@@ -1610,7 +1610,7 @@ PrefabInstance:
     - target: {fileID: 6719375640383470836, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
       propertyPath: m_Text
-      value: "\u65E7\u7248\u672C"
+      value: Classic Version
       objectReference: {fileID: 0}
     - target: {fileID: 6719375640383470836, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
@@ -1644,7 +1644,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6007087167293140, guid: 70efa831f47ebd64c9ec20e435552257, type: 3}
       propertyPath: m_Text
-      value: "\u8DF3\u8FC7\u672A\u5728\u6E38\u620F\u4E2D\u4F7F\u7528\u7684\u6587\u4EF6"
+      value: Skip Files Not Used In Game
       objectReference: {fileID: 0}
     - target: {fileID: 4370670236027206609, guid: 70efa831f47ebd64c9ec20e435552257,
         type: 3}
@@ -1739,7 +1739,7 @@ PrefabInstance:
     - target: {fileID: 6232154628449029725, guid: 70efa831f47ebd64c9ec20e435552257,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 460
+      value: 508.2
       objectReference: {fileID: 0}
     - target: {fileID: 6232154628449029725, guid: 70efa831f47ebd64c9ec20e435552257,
         type: 3}
@@ -1951,7 +1951,7 @@ PrefabInstance:
     - target: {fileID: 2609821400856594503, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 230
+      value: 333
       objectReference: {fileID: 0}
     - target: {fileID: 2609821400856594503, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
@@ -2056,7 +2056,7 @@ PrefabInstance:
     - target: {fileID: 6719375640383470836, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
       propertyPath: m_Text
-      value: "\u670D\u52A1\u5668\u4F4D\u7F6E / SekaiViewer"
+      value: Server Location / SekaiViewer
       objectReference: {fileID: 0}
     - target: {fileID: 6719375640383470836, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
@@ -2091,7 +2091,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: "\u5176\u4ED6"
+      value: 'Misc. '
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
@@ -2218,6 +2218,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8317413059168192136}
     m_Modifications:
+    - target: {fileID: 1054051869678378613, guid: c2e471664827c4e42a5c22507044f66e,
+        type: 3}
+      propertyPath: m_Text
+      value: Reset
+      objectReference: {fileID: 0}
     - target: {fileID: 1054051870023331988, guid: c2e471664827c4e42a5c22507044f66e,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2333,6 +2338,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000375339773373381, guid: c2e471664827c4e42a5c22507044f66e,
+        type: 3}
+      propertyPath: m_Text
+      value: Select Folder
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2e471664827c4e42a5c22507044f66e, type: 3}
 --- !u!224 &9065145215014426557 stripped
@@ -2369,7 +2379,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: "\u5B58\u6863"
+      value: Save File
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
@@ -2496,6 +2506,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8317413059168192136}
     m_Modifications:
+    - target: {fileID: 1054051869678378613, guid: c2e471664827c4e42a5c22507044f66e,
+        type: 3}
+      propertyPath: m_Text
+      value: Reset
+      objectReference: {fileID: 0}
     - target: {fileID: 1054051870023331988, guid: c2e471664827c4e42a5c22507044f66e,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2606,6 +2621,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FolderSelectItem
       objectReference: {fileID: 0}
+    - target: {fileID: 3000375339773373381, guid: c2e471664827c4e42a5c22507044f66e,
+        type: 3}
+      propertyPath: m_Text
+      value: Select Folder
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2e471664827c4e42a5c22507044f66e, type: 3}
 --- !u!114 &3505565435782869316 stripped
@@ -2635,7 +2655,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6007087167293140, guid: 70efa831f47ebd64c9ec20e435552257, type: 3}
       propertyPath: m_Text
-      value: "\u8DF3\u8FC7\u5DF2\u7ECF\u7EDF\u8BA1\u7684\u6587\u4EF6"
+      value: Skip Files Already Counted
       objectReference: {fileID: 0}
     - target: {fileID: 4370670236027206609, guid: 70efa831f47ebd64c9ec20e435552257,
         type: 3}
@@ -2969,6 +2989,21 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: -5
       objectReference: {fileID: 0}
+    - target: {fileID: 5542612534077660837, guid: cdee4a21bf6d1a244b8eefb29f0b4f66,
+        type: 3}
+      propertyPath: m_Text
+      value: Required Master Tables
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828064836441666860, guid: cdee4a21bf6d1a244b8eefb29f0b4f66,
+        type: 3}
+      propertyPath: m_Text
+      value: Update All
+      objectReference: {fileID: 0}
+    - target: {fileID: 8853655690839082472, guid: cdee4a21bf6d1a244b8eefb29f0b4f66,
+        type: 3}
+      propertyPath: m_Size
+      value: 0.51243633
+      objectReference: {fileID: 0}
     - target: {fileID: 8853655691101724810, guid: cdee4a21bf6d1a244b8eefb29f0b4f66,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -2982,7 +3017,7 @@ PrefabInstance:
     - target: {fileID: 8853655691101724810, guid: cdee4a21bf6d1a244b8eefb29f0b4f66,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.4893617
+      value: 0.48756367
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdee4a21bf6d1a244b8eefb29f0b4f66, type: 3}

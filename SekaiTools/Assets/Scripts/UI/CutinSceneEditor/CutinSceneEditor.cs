@@ -69,7 +69,7 @@ namespace SekaiTools.UI.CutinSceneEditor
         public void Save()
         {
             cutinSceneData.SaveData();
-            messageLayer.ShowMessage("保存成功");
+            messageLayer.ShowMessage("Save Successful");
         }
 
         public void OpenPlayerWindow()
@@ -90,7 +90,7 @@ namespace SekaiTools.UI.CutinSceneEditor
                 new ConfigUIItem[]
                 {
                     new ConfigUIItem_CutinScenePlayer
-                        ("播放器样式","播放器",
+                        ("Player Style","Player",
                             ()=>cutinSceneData.playerType,
                             (value) => 
                             { 

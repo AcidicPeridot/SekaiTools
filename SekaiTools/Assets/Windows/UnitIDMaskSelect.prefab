@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u53D6\u6D88"
+  m_Text: Cancel
 --- !u!1 &1124176534659130514
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,7 +478,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9009\u62E9\u7EC4\u5408"
+  m_Text: Unit ID Mask Select
 --- !u!1 &1124176536069013023
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,7 +1040,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u786E\u5B9A"
+  m_Text: OK
 --- !u!1001 &879554546238449501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1176,7 +1176,7 @@ PrefabInstance:
     - target: {fileID: 7343499454344699630, guid: 910c73ae9121c324da114f64d5299a0a,
         type: 3}
       propertyPath: m_Text
-      value: "\u6E05\u9664\u5168\u90E8"
+      value: Clear All
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910c73ae9121c324da114f64d5299a0a, type: 3}
@@ -1321,7 +1321,7 @@ PrefabInstance:
     - target: {fileID: 7343499454344699630, guid: 910c73ae9121c324da114f64d5299a0a,
         type: 3}
       propertyPath: m_Text
-      value: "\u9009\u62E9\u5168\u90E8"
+      value: Select All
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910c73ae9121c324da114f64d5299a0a, type: 3}

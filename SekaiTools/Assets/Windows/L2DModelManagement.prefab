@@ -36,8 +36,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -770, y: 60}
-  m_SizeDelta: {x: 280, y: 76}
+  m_AnchoredPosition: {x: -798.2959, y: 60}
+  m_SizeDelta: {x: 290.707, y: 76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6697427594704006195
 CanvasRenderer:
@@ -381,7 +381,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u4E0B\u8F7D\u6A21\u578B"
+  m_Text: Download Models
 --- !u!1 &3447004457708735836
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,8 +418,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -470, y: 60}
-  m_SizeDelta: {x: 280, y: 76}
+  m_AnchoredPosition: {x: -486.825, y: 60}
+  m_SizeDelta: {x: 290.707, y: 76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3447004457708735832
 CanvasRenderer:
@@ -593,7 +593,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8BFB\u53D6\u6A21\u578B"
+  m_Text: Load Model
 --- !u!1 &3447004458593164770
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,8 +630,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -170, y: 60}
-  m_SizeDelta: {x: 280, y: 76}
+  m_AnchoredPosition: {x: -175.353, y: 60}
+  m_SizeDelta: {x: 290.707, y: 76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3447004458593164782
 CanvasRenderer:
@@ -805,7 +805,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6279\u91CF\u8BFB\u53D6\u6A21\u578B"
+  m_Text: Load Models
 --- !u!1 &3677271940883145344
 GameObject:
   m_ObjectHideFlags: 0
@@ -1195,7 +1195,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5220\u9664\u6A21\u578B"
+  m_Text: Delete Model
 --- !u!1 &5475966144487545069
 GameObject:
   m_ObjectHideFlags: 0
@@ -2229,7 +2229,7 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "Live2D\u6A21\u578B\u7BA1\u7406"
+      value: Manage Live2D Model
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}

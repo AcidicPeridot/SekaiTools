@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6279\u91CF\u8BFB\u53D6\u6A21\u578B"
+  m_Text: Load Models
 --- !u!1 &1016899193108167826
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,7 +379,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9009\u62E9\u6B64\u6A21\u578B"
+  m_Text: Apply
 --- !u!1 &1557018167840711476
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,8 +819,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -470, y: 60}
-  m_SizeDelta: {x: 280, y: 76}
+  m_AnchoredPosition: {x: -487.368, y: 60}
+  m_SizeDelta: {x: 291.052, y: 76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5917602250128761111
 CanvasRenderer:
@@ -988,8 +988,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -170, y: 60}
-  m_SizeDelta: {x: 280, y: 76}
+  m_AnchoredPosition: {x: -175.5261, y: 60}
+  m_SizeDelta: {x: 291.052, y: 76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5826049202411301008
 CanvasRenderer:
@@ -1373,7 +1373,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8BFB\u53D6\u6A21\u578B"
+  m_Text: Load Model
 --- !u!1 &5815281934950987668
 GameObject:
   m_ObjectHideFlags: 0
@@ -1498,7 +1498,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 50.000004, y: 24.99997}
+  m_AnchoredPosition: {x: 7.100006, y: 24.99997}
   m_SizeDelta: {x: -140, y: -170.00006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2699256568280685566
@@ -1621,7 +1621,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u4E0B\u8F7D\u6A21\u578B"
+  m_Text: Download Models
 --- !u!1 &6808779443101205568
 GameObject:
   m_ObjectHideFlags: 0
@@ -1876,7 +1876,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u52A8\u753B\u96C6:"
+  m_Text: 'Set:'
 --- !u!1 &8485250938502367535
 GameObject:
   m_ObjectHideFlags: 0
@@ -2067,8 +2067,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -770, y: 60}
-  m_SizeDelta: {x: 280, y: 76}
+  m_AnchoredPosition: {x: -799.2093, y: 60}
+  m_SizeDelta: {x: 291.052, y: 76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3395420711370275304
 CanvasRenderer:
@@ -2243,7 +2243,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u4FEE\u6539\u52A8\u753B\u96C6"
+  m_Text: Change Set
 --- !u!1 &9199209583601977433
 GameObject:
   m_ObjectHideFlags: 0
@@ -2614,7 +2614,7 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "Live2D\u6A21\u578B\u9009\u62E9"
+      value: Select Live2D Model
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}

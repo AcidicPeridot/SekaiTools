@@ -287,7 +287,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9009\u62E9\u7247\u6BB5"
+  m_Text: Select
 --- !u!1 &1502295150985749204
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,8 +719,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -220, y: 30}
-  m_SizeDelta: {x: 240, y: 76}
+  m_AnchoredPosition: {x: -306.642, y: 30}
+  m_SizeDelta: {x: 343.97, y: 76}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &2308049959251436844
 CanvasRenderer:
@@ -1100,7 +1100,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u4ECE\u6587\u4EF6\u5939\u521B\u5EFA"
+  m_Text: Create from Folder
 --- !u!1 &2308049959625868254
 GameObject:
   m_ObjectHideFlags: 0
@@ -1138,7 +1138,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -20, y: 30}
-  m_SizeDelta: {x: 240, y: 76}
+  m_SizeDelta: {x: 343.97, y: 76}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &2308049959625868242
 CanvasRenderer:
@@ -1313,7 +1313,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u4E0B\u8F7D\u5E76\u521B\u5EFA"
+  m_Text: Download and Create
 --- !u!1 &2308049959914847544
 GameObject:
   m_ObjectHideFlags: 0
@@ -1479,7 +1479,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6064031269172017285
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1836,7 +1836,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u786E\u5B9A"
+  m_Text: Apply
 --- !u!1 &6064031270759410665
 GameObject:
   m_ObjectHideFlags: 0
@@ -2255,7 +2255,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: "Live2D\u6A21\u578B"
+      value: Live2D Model
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
@@ -2386,6 +2386,16 @@ PrefabInstance:
         type: 3}
       propertyPath: fileFilter
       value: "\u7CFB\u7EDFLive2D\u5C55\u793A\u573A\u666F (*.sls)|*.sls|Others (*.*)|*.*"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961337316662349046, guid: ac70e5bcb401b5847b99be699b856318,
+        type: 3}
+      propertyPath: m_Text
+      value: Select
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482859041544747334, guid: ac70e5bcb401b5847b99be699b856318,
+        type: 3}
+      propertyPath: m_Text
+      value: Reset
       objectReference: {fileID: 0}
     - target: {fileID: 8482859041870813094, guid: ac70e5bcb401b5847b99be699b856318,
         type: 3}
@@ -2527,7 +2537,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: "\u5B58\u6863"
+      value: Data
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
@@ -2654,6 +2664,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2308049959338953025}
     m_Modifications:
+    - target: {fileID: 6574996340104398617, guid: e7c98b1a50a68a3449e5a471ab47d0bd,
+        type: 3}
+      propertyPath: m_Text
+      value: Reset
+      objectReference: {fileID: 0}
     - target: {fileID: 6574996340449552888, guid: e7c98b1a50a68a3449e5a471ab47d0bd,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2764,6 +2779,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LoadFileSelectItem
       objectReference: {fileID: 0}
+    - target: {fileID: 8952262960230052521, guid: e7c98b1a50a68a3449e5a471ab47d0bd,
+        type: 3}
+      propertyPath: m_Text
+      value: Select
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7c98b1a50a68a3449e5a471ab47d0bd, type: 3}
 --- !u!114 &8879061483427796131 stripped
@@ -2818,7 +2838,7 @@ PrefabInstance:
     - target: {fileID: 3737195362018688938, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u8BED\u97F3"
+      value: Audio
       objectReference: {fileID: 0}
     - target: {fileID: 3737195363103087863, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
@@ -2993,7 +3013,7 @@ PrefabInstance:
     - target: {fileID: 4804129968225264594, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u8BED\u97F3"
+      value: Audio
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d89a980d3869864b9e0015949b1f0fe, type: 3}
@@ -3013,7 +3033,7 @@ PrefabInstance:
     - target: {fileID: 3737195362018688938, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u6A21\u578B"
+      value: Model
       objectReference: {fileID: 0}
     - target: {fileID: 3737195363103087863, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
@@ -3188,7 +3208,7 @@ PrefabInstance:
     - target: {fileID: 4804129968225264594, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u6A21\u578B"
+      value: Model
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d89a980d3869864b9e0015949b1f0fe, type: 3}
@@ -3403,7 +3423,7 @@ PrefabInstance:
     - target: {fileID: 6719375640383470836, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
       propertyPath: m_Text
-      value: "\u65B0\u5EFA\u5B58\u6863"
+      value: Create New Data
       objectReference: {fileID: 0}
     - target: {fileID: 6719375640383470836, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
@@ -3770,7 +3790,7 @@ PrefabInstance:
     - target: {fileID: 6719375640383470836, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
       propertyPath: m_Text
-      value: "\u8BFB\u53D6\u5B58\u6863"
+      value: Load Data
       objectReference: {fileID: 0}
     - target: {fileID: 6719375640383470836, guid: 31adb7ddd08070742b08b1d07d3881de,
         type: 3}
@@ -3945,12 +3965,22 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "\u7CFB\u7EDFLive2D\u5C55\u793A\u7F16\u8F91\u5668\u521D\u59CB\u5316"
+      value: Initialize System Live2D Showcase Editor
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
       value: INITIALIZE
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140956335463184399, guid: dd05059dbfecd374f82ccfa7699339ca,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 818.231
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140956335463184399, guid: dd05059dbfecd374f82ccfa7699339ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 539.6155
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd05059dbfecd374f82ccfa7699339ca, type: 3}
@@ -3970,7 +4000,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: "\u5B58\u6863"
+      value: Data
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
@@ -4100,7 +4130,7 @@ PrefabInstance:
     - target: {fileID: 3737195362018688938, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u5B58\u6863"
+      value: Data
       objectReference: {fileID: 0}
     - target: {fileID: 3737195363103087863, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
@@ -4275,7 +4305,7 @@ PrefabInstance:
     - target: {fileID: 4804129968225264594, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u5B58\u6863"
+      value: Data
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d89a980d3869864b9e0015949b1f0fe, type: 3}

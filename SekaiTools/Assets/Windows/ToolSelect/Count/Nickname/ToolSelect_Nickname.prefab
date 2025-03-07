@@ -530,7 +530,7 @@ PrefabInstance:
     - target: {fileID: 5562407287005391864, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
       propertyPath: m_Text
-      value: "\u6635\u79F0\u7EDF\u8BA1\u7ED3\u679C\n\u7F16\u8F91\u5668"
+      value: Nickname Statistics Results Editor
       objectReference: {fileID: 0}
     - target: {fileID: 5562407287369742200, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
@@ -724,7 +724,7 @@ PrefabInstance:
     - target: {fileID: 5562407287005391864, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
       propertyPath: m_Text
-      value: "\u6635\u79F0\u7EDF\u8BA1\u5668"
+      value: Nickname Counter
       objectReference: {fileID: 0}
     - target: {fileID: 5562407287369742201, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
@@ -927,7 +927,9 @@ PrefabInstance:
     - target: {fileID: 5562407287005391864, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
       propertyPath: m_Text
-      value: "\u6635\u79F0\u7EDF\u8BA1\n\u6F14\u793A\u6587\u7A3F\u7F16\u8F91\u5668"
+      value: 'Nickname Statistics
+
+        Presentation Editor'
       objectReference: {fileID: 0}
     - target: {fileID: 5562407287369742200, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
@@ -1240,7 +1242,7 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "\u9009\u62E9\u7F16\u8F91\u5668"
+      value: Select Editor
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
@@ -1557,7 +1559,9 @@ PrefabInstance:
     - target: {fileID: 5562407287005391864, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
       propertyPath: m_Text
-      value: "\u6635\u79F0\u7EDF\u8BA1\n\u6F14\u793A\u6587\u7A3F\u64AD\u653E\u5668"
+      value: 'Nickname Statistics
+
+        Showcase Player'
       objectReference: {fileID: 0}
     - target: {fileID: 5562407287369742200, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}

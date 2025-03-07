@@ -21,8 +21,8 @@ namespace SekaiTools.UI.AssetDownloaderInitialize
         {
             List<string> errors = new List<string>();
             if (UseStartWith && string.IsNullOrEmpty(GetStartWithString()))
-                errors.Add("目录起始字符串为空");
-            return GenericInitializationCheck.GetErrorString("文件筛选设置错误", errors);
+                errors.Add("Empty Catalog start string");
+            return GenericInitializationCheck.GetErrorString("Asset Filter setting error", errors);
         }
     }
 }

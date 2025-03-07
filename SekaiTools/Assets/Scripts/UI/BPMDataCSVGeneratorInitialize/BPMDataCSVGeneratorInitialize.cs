@@ -56,7 +56,7 @@ namespace SekaiTools.UI.BPMDataCSVGeneratorInitialize
             }
 
             File.WriteAllLines(gIP_PathSelect_Output.pathSelectItems[0].SelectedPath, outputLines);
-            WindowController.ShowMessage("ÏûÏ¢", "Éú³ÉÍê³É");
+            WindowController.ShowMessage("ï¿½ï¿½Ï¢", "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
         }
     }
 }

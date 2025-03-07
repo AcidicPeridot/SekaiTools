@@ -290,7 +290,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9009\u62E9\u5DE5\u5177"
+  m_Text: Selector Toolbox
 --- !u!1 &457182131591479793
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,7 +822,7 @@ PrefabInstance:
     - target: {fileID: 606184061077637186, guid: 27e496cb18daac346a63adefa25b5b21,
         type: 3}
       propertyPath: m_Text
-      value: "\u9009\u62E9\u5305\u542B\u89D2\u8272\u7684\u7247\u6BB5"
+      value: Select the segment containing the character
       objectReference: {fileID: 0}
     - target: {fileID: 606184061077637186, guid: 27e496cb18daac346a63adefa25b5b21,
         type: 3}
@@ -969,7 +969,7 @@ PrefabInstance:
     - target: {fileID: 606184061077637186, guid: 27e496cb18daac346a63adefa25b5b21,
         type: 3}
       propertyPath: m_Text
-      value: "\u9009\u62E9\u5168\u90E8\u53EF\u7528"
+      value: Select All Available
       objectReference: {fileID: 0}
     - target: {fileID: 606184061077637186, guid: 27e496cb18daac346a63adefa25b5b21,
         type: 3}

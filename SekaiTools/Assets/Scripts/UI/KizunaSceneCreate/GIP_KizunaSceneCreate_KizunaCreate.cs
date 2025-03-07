@@ -48,11 +48,11 @@ namespace SekaiTools.UI.KizunaSceneCreate
                         BondsHonorSub bondsHonorSub = gobj.GetComponent<BondsHonorSub>();
                         bondsHonorSub.SetCharacter(selectedCouple[id].x, selectedCouple[id].y);
                     });
-                txtInfoDisplay.text = $"共{selectedCouple.Length}对组合，包含{SelectedCoupleCharCount().Length}名角色";
+                txtInfoDisplay.text = $"{selectedCouple.Length} total pairs of combinations containing {SelectedCoupleCharCount().Length} characters";
             }
             else
             {
-                txtInfoDisplay.text = $"请选择组合";
+                txtInfoDisplay.text = $"Please select combination";
             }
         }
 
@@ -100,9 +100,9 @@ namespace SekaiTools.UI.KizunaSceneCreate
             List<string> errors = new List<string>();
             if(selectedCouple == null || selectedCouple.Length == 0)
             {
-                errors.Add("未选择组合");
+                errors.Add("No combination selected");
             }
-            return GenericInitializationCheck.GetErrorString("组合错误", errors);
+            return GenericInitializationCheck.GetErrorString("Combination error", errors);
         }
     }
 }

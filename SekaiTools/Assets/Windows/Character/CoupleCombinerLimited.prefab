@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u786E\u5B9A"
+  m_Text: Apply
 --- !u!1 &1442075878260459037
 GameObject:
   m_ObjectHideFlags: 0
@@ -716,7 +716,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -50, y: 50}
-  m_SizeDelta: {x: 250, y: 76}
+  m_SizeDelta: {x: 250, y: 110}
   m_Pivot: {x: 1, y: 0}
 --- !u!222 &6245325973399089613
 CanvasRenderer:
@@ -1108,7 +1108,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7EC4\u5408\u5E76\u6DFB\u52A0"
+  m_Text: 'Combine and
+
+    Add to List'
 --- !u!1 &6245325974065012795
 GameObject:
   m_ObjectHideFlags: 0
@@ -1567,7 +1569,7 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "\u9009\u62E9\u7EC4\u5408"
+      value: Select Combination
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}

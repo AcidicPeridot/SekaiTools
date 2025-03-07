@@ -7,10 +7,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 559738488377503636, guid: 6b17325963a9a9443823e6c0d89bd900,
+        type: 3}
+      propertyPath: m_Text
+      value: New Data
+      objectReference: {fileID: 0}
+    - target: {fileID: 559738488473195540, guid: 6b17325963a9a9443823e6c0d89bd900,
+        type: 3}
+      propertyPath: m_Text
+      value: Bonds Setting
+      objectReference: {fileID: 0}
     - target: {fileID: 559738488563576788, guid: 6b17325963a9a9443823e6c0d89bd900,
         type: 3}
       propertyPath: mode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 559738488569634448, guid: 6b17325963a9a9443823e6c0d89bd900,
+        type: 3}
+      propertyPath: m_Text
+      value: Interactive Voice File
+      objectReference: {fileID: 0}
+    - target: {fileID: 559738489551590809, guid: 6b17325963a9a9443823e6c0d89bd900,
+        type: 3}
+      propertyPath: m_Text
+      value: Interactive Voice Setting
       objectReference: {fileID: 0}
     - target: {fileID: 559738489573199443, guid: 6b17325963a9a9443823e6c0d89bd900,
         type: 3}
@@ -121,6 +141,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 559738489816564451, guid: 6b17325963a9a9443823e6c0d89bd900,
+        type: 3}
+      propertyPath: m_Text
+      value: "\u203B Interactive Voice can be empty"
+      objectReference: {fileID: 0}
+    - target: {fileID: 559738490063722519, guid: 6b17325963a9a9443823e6c0d89bd900,
+        type: 3}
+      propertyPath: m_Text
+      value: Apply
+      objectReference: {fileID: 0}
+    - target: {fileID: 559738490119947231, guid: 6b17325963a9a9443823e6c0d89bd900,
+        type: 3}
+      propertyPath: m_Text
+      value: Load Data
+      objectReference: {fileID: 0}
+    - target: {fileID: 559738490210795260, guid: 6b17325963a9a9443823e6c0d89bd900,
+        type: 3}
+      propertyPath: m_Text
+      value: Set
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840004922526473075, guid: 6b17325963a9a9443823e6c0d89bd900,
+        type: 3}
+      propertyPath: m_Text
+      value: Create Custom Kizuna Scene
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268056372472360777, guid: 6b17325963a9a9443823e6c0d89bd900,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 626.206
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268056372472360777, guid: 6b17325963a9a9443823e6c0d89bd900,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 443.60294
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b17325963a9a9443823e6c0d89bd900, type: 3}

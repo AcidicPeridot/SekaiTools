@@ -64,6 +64,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -151,6 +152,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.70199996, g: 0.622674, b: 0.690101, a: 0.34117648}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -228,6 +230,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -431,6 +434,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &8756438907489162466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -461,6 +465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlScript: {fileID: 5386898048065341214}
+  mainCameraRender: 0
   parentWindowEffect: 1
   parentWindowRaycast: 1
   OnClose:
@@ -521,7 +526,7 @@ PrefabInstance:
     - target: {fileID: 5562407287005391864, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
       propertyPath: m_Text
-      value: "\u7275\u7ECA\u4E92\u52A8\u573A\u666F\n\u64AD\u653E\u5668"
+      value: Kizuna Player
       objectReference: {fileID: 0}
     - target: {fileID: 5562407287369742200, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
@@ -715,7 +720,7 @@ PrefabInstance:
     - target: {fileID: 5562407287005391864, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
       propertyPath: m_Text
-      value: "\u81EA\u5B9A\u4E49\u7275\u7ECA\u573A\u666F\n\u64AD\u653E\u5668"
+      value: Custom Kizuna Player
       objectReference: {fileID: 0}
     - target: {fileID: 5562407287369742200, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
@@ -903,7 +908,7 @@ PrefabInstance:
     - target: {fileID: 5562407287005391864, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
       propertyPath: m_Text
-      value: "\u4E92\u52A8\u8BED\u97F3\u573A\u666F\n\u64AD\u653E\u5668"
+      value: Cutin Player
       objectReference: {fileID: 0}
     - target: {fileID: 5562407287369742206, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
@@ -1310,7 +1315,7 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "\u9009\u62E9\u64AD\u653E\u5668"
+      value: Select Player
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}

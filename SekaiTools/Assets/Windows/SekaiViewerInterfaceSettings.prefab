@@ -78,7 +78,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u203B \u56E0\u5F00\u9500\u8FC7\u5927\uFF0C\u5728SekaiTools\u4E2D\u4E0D\u53EF\u4F7F\u7528\u52A0\u901F\u670D\u52A1\u5668"
+  m_Text: "\u203B Acceleration server cannot be used with SekaiTools due to high
+    overhead."
 --- !u!1 &3512230217123574687
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,6 +233,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlScript: {fileID: 0}
+  mainCameraRender: 0
   parentWindowEffect: 1
   parentWindowRaycast: 1
   OnClose:
@@ -482,7 +484,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: "\u6570\u636E\u670D\u52A1\u5668"
+      value: Data Server
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
@@ -938,7 +940,7 @@ PrefabInstance:
     - target: {fileID: 3737195362018688938, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u670D\u52A1\u5668"
+      value: Server
       objectReference: {fileID: 0}
     - target: {fileID: 3737195363103087863, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
@@ -1273,12 +1275,22 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "SekaiViewer\u8FDE\u63A5\u8BBE\u7F6E"
+      value: SekaiViewer Connection Settings
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
       value: SELECT
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140956335463184399, guid: dd05059dbfecd374f82ccfa7699339ca,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 712.309
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140956335463184399, guid: dd05059dbfecd374f82ccfa7699339ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 486.655
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd05059dbfecd374f82ccfa7699339ca, type: 3}
@@ -1839,7 +1851,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: "\u8D44\u6E90\u670D\u52A1\u5668"
+      value: Resource Server
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}

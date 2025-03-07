@@ -233,7 +233,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5DF2\u9009\u8BED\u97F3"
+  m_Text: Selected Voices
 --- !u!1 &566666906806178657
 GameObject:
   m_ObjectHideFlags: 0
@@ -591,7 +591,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u786E\u5B9A"
+  m_Text: Apply
 --- !u!1 &566666907830995786
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,7 +988,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u53EF\u9009\u8BED\u97F3"
+  m_Text: Optional Voices
 --- !u!1 &580277562424272548
 GameObject:
   m_ObjectHideFlags: 0
@@ -1638,10 +1638,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scrollbar Vertical
       objectReference: {fileID: 0}
+    - target: {fileID: 4735276991539140040, guid: eccdab52ed558fa429d2a3d0a67d780e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4735276991539140042, guid: eccdab52ed558fa429d2a3d0a67d780e,
         type: 3}
       propertyPath: m_Size
-      value: 0.9962793
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4735276991539140043, guid: eccdab52ed558fa429d2a3d0a67d780e,
         type: 3}
@@ -1751,12 +1756,12 @@ PrefabInstance:
     - target: {fileID: 4735276991751319720, guid: eccdab52ed558fa429d2a3d0a67d780e,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4735276991751319720, guid: eccdab52ed558fa429d2a3d0a67d780e,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eccdab52ed558fa429d2a3d0a67d780e, type: 3}
@@ -1790,10 +1795,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scrollbar Vertical
       objectReference: {fileID: 0}
+    - target: {fileID: 4735276991539140040, guid: eccdab52ed558fa429d2a3d0a67d780e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4735276991539140042, guid: eccdab52ed558fa429d2a3d0a67d780e,
         type: 3}
       propertyPath: m_Size
-      value: 0.9962793
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4735276991539140043, guid: eccdab52ed558fa429d2a3d0a67d780e,
         type: 3}
@@ -1903,12 +1913,12 @@ PrefabInstance:
     - target: {fileID: 4735276991751319720, guid: eccdab52ed558fa429d2a3d0a67d780e,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4735276991751319720, guid: eccdab52ed558fa429d2a3d0a67d780e,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eccdab52ed558fa429d2a3d0a67d780e, type: 3}
@@ -2075,7 +2085,7 @@ PrefabInstance:
     - target: {fileID: 7343499454344699630, guid: 910c73ae9121c324da114f64d5299a0a,
         type: 3}
       propertyPath: m_Text
-      value: "\u5168\u90E8\u6DFB\u52A0"
+      value: Add All
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910c73ae9121c324da114f64d5299a0a, type: 3}
@@ -2092,6 +2102,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3613417493562785043}
     m_Modifications:
+    - target: {fileID: 7912123372791210577, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: Update
+      objectReference: {fileID: 0}
     - target: {fileID: 7912123373294757672, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}
       propertyPath: m_Name
@@ -2201,6 +2216,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912123374647625504, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Last Updated:'
       objectReference: {fileID: 0}
     - target: {fileID: 8961239559178928585, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}
@@ -2643,7 +2663,7 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "\u9009\u62E9\u7CFB\u7EDFLive2D\u8BED\u97F3"
+      value: Select System Live2D Voice
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}

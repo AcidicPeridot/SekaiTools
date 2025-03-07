@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u4EC5\u663E\u793A\u9AD8\u4EAE\u5BF9\u8BDD"
+  m_Text: Show only highlighted dialogs
 --- !u!1 &1538255687578920577
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,7 +1114,7 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "\u67E5\u770B\u5267\u60C5"
+      value: View Story
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
@@ -1399,7 +1399,7 @@ PrefabInstance:
     - target: {fileID: 7343499454344699630, guid: 910c73ae9121c324da114f64d5299a0a,
         type: 3}
       propertyPath: m_Text
-      value: "\u5728Sekai Viewer\u4E2D\u67E5\u770B"
+      value: View in SekaiViewer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910c73ae9121c324da114f64d5299a0a, type: 3}
@@ -1559,17 +1559,17 @@ PrefabInstance:
     - target: {fileID: 9005385410135727505, guid: 3f6b277b8bb272f41af720ea50b4294b,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9005385410243705073, guid: 3f6b277b8bb272f41af720ea50b4294b,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9005385410243705073, guid: 3f6b277b8bb272f41af720ea50b4294b,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f6b277b8bb272f41af720ea50b4294b, type: 3}

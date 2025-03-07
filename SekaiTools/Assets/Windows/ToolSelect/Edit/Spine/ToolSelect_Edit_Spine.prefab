@@ -461,6 +461,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlScript: {fileID: 6617682923737607384}
+  mainCameraRender: 0
   parentWindowEffect: 1
   parentWindowRaycast: 1
   OnClose:
@@ -506,7 +507,9 @@ PrefabInstance:
     - target: {fileID: 5562407287005391864, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
       propertyPath: m_Text
-      value: "Spine\u6A21\u578B&\u52A8\u753B\n\u5C55\u793A\u89C6\u9891\u7F16\u8F91\u5668"
+      value: 'Spine Models & Animations
+
+        Showcase Video Editor'
       objectReference: {fileID: 0}
     - target: {fileID: 5562407287369742200, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
@@ -700,7 +703,7 @@ PrefabInstance:
     - target: {fileID: 5562407287005391864, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
       propertyPath: m_Text
-      value: "Spine\u6A21\u578B&\u52A8\u753B\n\u5C55\u793A\u89C6\u9891\u64AD\u653E\u5668"
+      value: Spine Models & Animations Showcase Video Player
       objectReference: {fileID: 0}
     - target: {fileID: 5562407287369742200, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
@@ -1143,7 +1146,7 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "\u9009\u62E9\u7F16\u8F91\u5668"
+      value: Select Editor
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}

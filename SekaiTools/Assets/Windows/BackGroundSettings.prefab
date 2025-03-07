@@ -233,7 +233,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8BFB\u53D6\u56FE\u50CF"
+  m_Text: Load Image
 --- !u!1 &1563108828710388098
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,7 +312,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9884\u5236\u4EF6"
+  m_Text: Select Prefab
 --- !u!1 &1563108829533772254
 GameObject:
   m_ObjectHideFlags: 0
@@ -349,8 +349,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 190, y: 0}
-  m_SizeDelta: {x: 220, y: 76}
+  m_AnchoredPosition: {x: 343.16913, y: 0}
+  m_SizeDelta: {x: 241.845, y: 76}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &1563108829533772250
 CanvasRenderer:
@@ -482,8 +482,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 430, y: 0}
-  m_SizeDelta: {x: 220, y: 76}
+  m_AnchoredPosition: {x: 607, y: 0}
+  m_SizeDelta: {x: 241.845, y: 76}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &1563108829589603337
 CanvasRenderer:
@@ -874,7 +874,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8BBE\u7F6E"
+  m_Text: Select
 --- !u!1 &2754370825092530199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1794,7 +1794,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: -880, y: 450}
-  m_SizeDelta: {x: 750, y: 100}
+  m_SizeDelta: {x: 940.07, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &6064275504622670013
 CanvasRenderer:
@@ -1912,7 +1912,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u80CC\u666F"
+  m_Text: Change Background
 --- !u!1 &6064275506354944505
 GameObject:
   m_ObjectHideFlags: 0
@@ -1949,7 +1949,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 20, y: 0}
-  m_SizeDelta: {x: 150, y: 56}
+  m_SizeDelta: {x: 306.181, y: 56}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &6064275506354944506
 CanvasRenderer:
@@ -2442,7 +2442,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8BFB\u53D6"
+  m_Text: Save
 --- !u!1 &7892071771382753052
 GameObject:
   m_ObjectHideFlags: 0
@@ -2654,7 +2654,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u4FDD\u5B58"
+  m_Text: Load
 --- !u!1 &8859630147199566955
 GameObject:
   m_ObjectHideFlags: 0
@@ -3013,7 +3013,7 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "\u80CC\u666F\u8BBE\u5B9A"
+      value: Background Settings
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}

@@ -28,7 +28,7 @@ namespace SekaiTools.UI
             {
                 if (!File.Exists(masterRefUpdateItem.SavePath))
                 {
-                    errors.Add($"未找到数据表{masterRefUpdateItem.masterName}");
+                    errors.Add($"Data table {masterRefUpdateItem.masterName} not found");
                 }
                 else
                 {
@@ -39,7 +39,7 @@ namespace SekaiTools.UI
             }
 
             if (newestUpdateTime.AddDays(-MAX_INTERVAL_DAYS) > oldestUpdateTime)
-                errors.Add("表格的最后更新时间相差过大，请尝试更新所有表格");
+                errors.Add("The oldest update of a master table is too old, try updating all tables");
 
             return errors;
         }
@@ -82,7 +82,7 @@ namespace SekaiTools.UI
         IEnumerator IUpdateAll(MonoBehaviour updateOn)
         {
             if (btnUpdateAll) btnUpdateAll.interactable = false;
-            if(txtUpdate) txtUpdate.text = "更新中";
+            if(txtUpdate) txtUpdate.text = "Update DYNAMIC";
 
             foreach (var masterRefUpdateItem in masterRefUpdateItems)
             {
@@ -90,7 +90,7 @@ namespace SekaiTools.UI
             }
 
             if (btnUpdateAll) btnUpdateAll.interactable = true;
-            if(txtUpdate) txtUpdate.text = "更新全部完成";
+            if(txtUpdate) txtUpdate.text = "All updates completed";
         }
     }
 }

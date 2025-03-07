@@ -277,7 +277,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u786E\u5B9A"
+  m_Text: Apply
 --- !u!1 &8881960617041104390
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,7 +755,8 @@ PrefabInstance:
     - target: {fileID: 8686941000878048728, guid: 733a76cd3ab91224597fb85b80a477cb,
         type: 3}
       propertyPath: m_Text
-      value: "\u203B \u6682\u4E0D\u652F\u6301\u89E3\u5BC6\uFF0C\u8BF7\u9009\u62E9\u5DF2\u7ECF\u7ECF\u8FC7base64\u548CRijndael\u89E3\u5BC6\u7684\u6587\u4EF6\n"
+      value: "\u203B No support for decryption, please select a file that has been
+        decrypted by base64 and Rijndael.\n"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 733a76cd3ab91224597fb85b80a477cb, type: 3}
@@ -775,7 +776,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: "\u8D44\u6E90\u5217\u8868 assetbundle_versions.txt"
+      value: Asset Bundle List assetbundle_versions.txt
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
@@ -1017,10 +1018,75 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2055606837833638724, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_Text
+      value: Retry Wait Time
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055606837833638725, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 315.911
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055606837833638725, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 517
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055606837876607974, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_Text
+      value: Retries
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055606838715237658, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 761
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055606838715237658, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -230
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055606838896307718, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 167
+      objectReference: {fileID: 0}
+    - target: {fileID: 4085056489105661262, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 432.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 4085056489291623374, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 447.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739756085321965437, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_Text
+      value: Overwrite Existing FIles
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739756086480939517, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_Text
+      value: Skip Existing Files
+      objectReference: {fileID: 0}
     - target: {fileID: 5182035787057846462, guid: 640541da20a5f254ebb638b49c973d8f,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6217964327260804524, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_Text
+      value: File Overwrite Settings
+      objectReference: {fileID: 0}
+    - target: {fileID: 6217964329130680654, guid: 640541da20a5f254ebb638b49c973d8f,
+        type: 3}
+      propertyPath: m_Text
+      value: Retry Settings
       objectReference: {fileID: 0}
     - target: {fileID: 6398646008645397732, guid: 640541da20a5f254ebb638b49c973d8f,
         type: 3}
@@ -1063,7 +1129,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: "\u4FDD\u5B58\u76EE\u5F55"
+      value: Save Location
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
@@ -1190,6 +1256,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7477641795551405609}
     m_Modifications:
+    - target: {fileID: 6574996340104398617, guid: e7c98b1a50a68a3449e5a471ab47d0bd,
+        type: 3}
+      propertyPath: m_Text
+      value: Reset
+      objectReference: {fileID: 0}
     - target: {fileID: 6574996340449552888, guid: e7c98b1a50a68a3449e5a471ab47d0bd,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1300,6 +1371,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LoadFileSelectItem
       objectReference: {fileID: 0}
+    - target: {fileID: 8952262960230052521, guid: e7c98b1a50a68a3449e5a471ab47d0bd,
+        type: 3}
+      propertyPath: m_Text
+      value: Select
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7c98b1a50a68a3449e5a471ab47d0bd, type: 3}
 --- !u!224 &2972647854346326115 stripped
@@ -1327,6 +1403,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7477641795551405609}
     m_Modifications:
+    - target: {fileID: 1054051869678378613, guid: c2e471664827c4e42a5c22507044f66e,
+        type: 3}
+      propertyPath: m_Text
+      value: Reset
+      objectReference: {fileID: 0}
     - target: {fileID: 1054051870023331988, guid: c2e471664827c4e42a5c22507044f66e,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1437,6 +1518,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FolderSelectItem
       objectReference: {fileID: 0}
+    - target: {fileID: 3000375339773373381, guid: c2e471664827c4e42a5c22507044f66e,
+        type: 3}
+      propertyPath: m_Text
+      value: Select Folder
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2e471664827c4e42a5c22507044f66e, type: 3}
 --- !u!224 &8998013640949935491 stripped
@@ -1467,7 +1553,7 @@ PrefabInstance:
     - target: {fileID: 3737195362018688938, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u6570\u636E\u8868"
+      value: File Settings
       objectReference: {fileID: 0}
     - target: {fileID: 3737195363103087863, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
@@ -1647,7 +1733,7 @@ PrefabInstance:
     - target: {fileID: 4804129968225264594, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u6587\u4EF6\u8BBE\u7F6E"
+      value: File Settings
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d89a980d3869864b9e0015949b1f0fe, type: 3}
@@ -1807,12 +1893,22 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "Restage\u8D44\u6E90\u4E0B\u8F7D\u5668\u521D\u59CB\u5316"
+      value: Initialize Restage Asset Bundle Downloader
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
       value: INITIALIZE
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140956335463184399, guid: dd05059dbfecd374f82ccfa7699339ca,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 865.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140956335463184399, guid: dd05059dbfecd374f82ccfa7699339ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 563.0303
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd05059dbfecd374f82ccfa7699339ca, type: 3}
@@ -1832,7 +1928,7 @@ PrefabInstance:
     - target: {fileID: 3737195362018688938, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u4E0B\u8F7D\u8BBE\u7F6E"
+      value: Download Settings
       objectReference: {fileID: 0}
     - target: {fileID: 3737195363103087863, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
@@ -2012,7 +2108,7 @@ PrefabInstance:
     - target: {fileID: 4804129968225264594, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u4E0B\u8F7D\u8BBE\u7F6E"
+      value: Download Settings
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d89a980d3869864b9e0015949b1f0fe, type: 3}

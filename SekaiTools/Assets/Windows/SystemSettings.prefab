@@ -62,6 +62,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -198,6 +199,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -215,7 +217,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7A97\u53E3\u8BBE\u7F6E"
+  m_Text: Window Settings
 --- !u!1 &2474032486393867994
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,8 +256,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -70}
-  m_SizeDelta: {x: 595, y: 700}
+  m_AnchoredPosition: {x: 0.000030518, y: -60}
+  m_SizeDelta: {x: 625.992, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2474032486393867999
 CanvasRenderer:
@@ -280,6 +282,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -375,6 +378,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -451,6 +455,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 0.101960786}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -555,6 +560,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -649,6 +655,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &4839818334958765807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -679,6 +686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlScript: {fileID: 4839818335770109420}
+  mainCameraRender: 0
   parentWindowEffect: 1
   parentWindowRaycast: 1
   OnClose:
@@ -966,7 +974,7 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "\u7CFB\u7EDF\u8BBE\u7F6E"
+      value: System Settings
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
@@ -991,7 +999,7 @@ PrefabInstance:
     - target: {fileID: 703311137000795443, guid: 038cf79b288518c4fa63288fc39117a9,
         type: 3}
       propertyPath: m_Text
-      value: "\u7A97\u53E3"
+      value: Windowed
       objectReference: {fileID: 0}
     - target: {fileID: 703311137000795443, guid: 038cf79b288518c4fa63288fc39117a9,
         type: 3}
@@ -1151,7 +1159,7 @@ PrefabInstance:
     - target: {fileID: 8121503019368913280, guid: 038cf79b288518c4fa63288fc39117a9,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 440
+      value: 450
       objectReference: {fileID: 0}
     - target: {fileID: 8121503019368913280, guid: 038cf79b288518c4fa63288fc39117a9,
         type: 3}
@@ -1203,7 +1211,7 @@ PrefabInstance:
     - target: {fileID: 703311137000795443, guid: 038cf79b288518c4fa63288fc39117a9,
         type: 3}
       propertyPath: m_Text
-      value: "\u5168\u5C4F"
+      value: Fullscreen
       objectReference: {fileID: 0}
     - target: {fileID: 703311137000795443, guid: 038cf79b288518c4fa63288fc39117a9,
         type: 3}
@@ -1363,7 +1371,7 @@ PrefabInstance:
     - target: {fileID: 8121503019368913280, guid: 038cf79b288518c4fa63288fc39117a9,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 190
+      value: 150.00003
       objectReference: {fileID: 0}
     - target: {fileID: 8121503019368913280, guid: 038cf79b288518c4fa63288fc39117a9,
         type: 3}

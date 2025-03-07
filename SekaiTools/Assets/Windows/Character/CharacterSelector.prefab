@@ -650,7 +650,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u53D6\u6D88"
+  m_Text: Cancel
 --- !u!1 &8958047261661276478
 GameObject:
   m_ObjectHideFlags: 0
@@ -920,7 +920,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9009\u62E9\u89D2\u8272"
+  m_Text: Select Character
 --- !u!1001 &2720455030143278681
 PrefabInstance:
   m_ObjectHideFlags: 0

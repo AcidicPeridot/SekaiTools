@@ -1086,7 +1086,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8FD4\u56DE"
+  m_Text: Cancel
 --- !u!1 &5370615227296735886
 GameObject:
   m_ObjectHideFlags: 0
@@ -1457,7 +1457,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 400, y: 80}
+  m_AnchoredPosition: {x: 392, y: 115.43}
   m_SizeDelta: {x: 712, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5370615227635848500
@@ -1871,7 +1871,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -227.5, y: -423.5}
+  m_AnchoredPosition: {x: -236.49997, y: -418.07}
   m_SizeDelta: {x: -545, y: -1037}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5370615227880470839
@@ -1915,7 +1915,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u4E0B\u8F7D\u4E2D"
+  m_Text: Downloading...
 --- !u!1 &5370615227905319465
 GameObject:
   m_ObjectHideFlags: 0
@@ -2659,7 +2659,7 @@ PrefabInstance:
     - target: {fileID: 1772898443349368285, guid: 910c73ae9121c324da114f64d5299a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 280
+      value: 319.044
       objectReference: {fileID: 0}
     - target: {fileID: 1772898443349368285, guid: 910c73ae9121c324da114f64d5299a0a,
         type: 3}
@@ -2744,7 +2744,7 @@ PrefabInstance:
     - target: {fileID: 7343499454344699630, guid: 910c73ae9121c324da114f64d5299a0a,
         type: 3}
       propertyPath: m_Text
-      value: "\u67E5\u770B\u4E0B\u8F7D\u65E5\u5FD7"
+      value: View Download Log
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910c73ae9121c324da114f64d5299a0a, type: 3}
@@ -2816,7 +2816,7 @@ PrefabInstance:
     - target: {fileID: 1772898443349368285, guid: 910c73ae9121c324da114f64d5299a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 280
+      value: 319.044
       objectReference: {fileID: 0}
     - target: {fileID: 1772898443349368285, guid: 910c73ae9121c324da114f64d5299a0a,
         type: 3}
@@ -2901,7 +2901,7 @@ PrefabInstance:
     - target: {fileID: 7343499454344699630, guid: 910c73ae9121c324da114f64d5299a0a,
         type: 3}
       propertyPath: m_Text
-      value: "\u67E5\u770B\u9519\u8BEF\u65E5\u5FD7"
+      value: View Error Log
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910c73ae9121c324da114f64d5299a0a, type: 3}
@@ -3108,7 +3108,7 @@ PrefabInstance:
     - target: {fileID: 1772898443349368285, guid: 910c73ae9121c324da114f64d5299a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 280
+      value: 319.044
       objectReference: {fileID: 0}
     - target: {fileID: 1772898443349368285, guid: 910c73ae9121c324da114f64d5299a0a,
         type: 3}
@@ -3193,7 +3193,7 @@ PrefabInstance:
     - target: {fileID: 7343499454344699630, guid: 910c73ae9121c324da114f64d5299a0a,
         type: 3}
       propertyPath: m_Text
-      value: "\u4FDD\u5B58\u4E0B\u8F7D\u65E5\u5FD7"
+      value: Save Download Log
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910c73ae9121c324da114f64d5299a0a, type: 3}

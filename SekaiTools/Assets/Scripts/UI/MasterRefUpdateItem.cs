@@ -52,16 +52,16 @@ namespace SekaiTools.UI
                     case ServerRegion.jp:
                         break;
                     case ServerRegion.tw:
-                        masterName += "（繁中）";
+                        masterName += " (Traditional Chinese) ";
                         break;
                     case ServerRegion.cn:
-                        masterName += "（简中）";
+                        masterName += " (Simplified Chinese) ";
                         break;
                     case ServerRegion.en:
-                        masterName += "（英文）";
+                        masterName += " (English) ";
                         break;
                     case ServerRegion.kr:
-                        masterName += "（韩文）";
+                        masterName += " (Korean) ";
                         break;
                     default:
                         break;
@@ -70,8 +70,8 @@ namespace SekaiTools.UI
             nameText.text = masterName;
             lastUpdateTimeText.text =
                 File.Exists(SavePath) ?
-                "上次更新 " + File.GetLastWriteTime(SavePath).ToString() :
-                "数据表不存在，请更新数据表";
+                "Last Update " + File.GetLastWriteTime(SavePath).ToString() :
+                "Data table not found, please update";
         }
 
         public void UpdateMaster()
@@ -123,7 +123,7 @@ namespace SekaiTools.UI
                     if (!Directory.Exists(path))
                         Directory.CreateDirectory(path);
                     File.Copy(tempFilePath, SavePath);
-                    infoText.text = "更新完成";
+                    infoText.text = "Updated";
                     OnTableUpdated?.Invoke();
                 }
             }

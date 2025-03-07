@@ -34,7 +34,7 @@ namespace SekaiTools
             }
             catch
             {
-                throw new DataTableCorruptionException($"Êý¾Ý±íËð»µ {tableName}");
+                throw new DataTableCorruptionException($"Data Table {tableName} corrupted");
             }
         }
 

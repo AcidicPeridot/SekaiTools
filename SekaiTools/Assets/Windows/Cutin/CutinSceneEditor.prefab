@@ -1213,7 +1213,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u64AD\u653E"
+  m_Text: Play
 --- !u!1 &1820541704476336561
 GameObject:
   m_ObjectHideFlags: 0
@@ -1930,6 +1930,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1820541703706588229}
     m_Modifications:
+    - target: {fileID: 3486927577433919436, guid: 4523b3866bb718145af8c0681cfd9881,
+        type: 3}
+      propertyPath: m_Text
+      value: Enter original text...
+      objectReference: {fileID: 0}
     - target: {fileID: 5923953506977768448, guid: 4523b3866bb718145af8c0681cfd9881,
         type: 3}
       propertyPath: m_Name
@@ -2039,6 +2044,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9155343028457220517, guid: 4523b3866bb718145af8c0681cfd9881,
+        type: 3}
+      propertyPath: m_Text
+      value: Enter original text...
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4523b3866bb718145af8c0681cfd9881, type: 3}
@@ -2636,6 +2646,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1820541703706588229}
     m_Modifications:
+    - target: {fileID: 3486927577433919436, guid: 4523b3866bb718145af8c0681cfd9881,
+        type: 3}
+      propertyPath: m_Text
+      value: Enter original text...
+      objectReference: {fileID: 0}
     - target: {fileID: 5923953506977768448, guid: 4523b3866bb718145af8c0681cfd9881,
         type: 3}
       propertyPath: m_Name
@@ -2745,6 +2760,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9155343028457220517, guid: 4523b3866bb718145af8c0681cfd9881,
+        type: 3}
+      propertyPath: m_Text
+      value: Enter original text...
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4523b3866bb718145af8c0681cfd9881, type: 3}

@@ -15,10 +15,10 @@ namespace SekaiTools.UI
         {
             dd_AssetListType.options = new List<Dropdown.OptionData>()
             {
-                new Dropdown.OptionData("未解密的MessagePack通信"),
-                new Dropdown.OptionData("解密的MessagePack通信"),
-                new Dropdown.OptionData("MessagePack直接转换成的JSON"),
-                new Dropdown.OptionData("可直接读取的JSON")
+                new Dropdown.OptionData("Encrypted MessagePack Data"),
+                new Dropdown.OptionData("Decrypted MessagePack Data"),
+                new Dropdown.OptionData("JSON directly converted by MessagePack"),
+                new Dropdown.OptionData("Directly readable JSON")
             };
         }
 
@@ -27,7 +27,7 @@ namespace SekaiTools.UI
             switch ((AssetListType)dd_AssetListType.value)
             {
                 case AssetListType.Undecrypted:
-                    WindowController.windowController.SendMessage("错误", "此功能模块还未完成");
+                    WindowController.windowController.SendMessage("Error", "This function is not yet complete");
                     break;
                 case AssetListType.MessagePack:
                     byte[] msgPack = File.ReadAllBytes(lfsi_AssetList.SelectedPath);

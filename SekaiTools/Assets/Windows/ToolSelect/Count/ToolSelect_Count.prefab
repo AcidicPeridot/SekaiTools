@@ -526,7 +526,7 @@ PrefabInstance:
     - target: {fileID: 5562407287005391864, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
       propertyPath: m_Text
-      value: "\u914D\u89D2\u4FE1\u606F\u67E5\u770B"
+      value: Mob Info Viewer
       objectReference: {fileID: 0}
     - target: {fileID: 5562407287369742200, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
@@ -720,7 +720,7 @@ PrefabInstance:
     - target: {fileID: 5562407287005391864, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
       propertyPath: m_Text
-      value: "\u5206\u7EC4\u5668"
+      value: Combination
       objectReference: {fileID: 0}
     - target: {fileID: 5562407287369742201, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
@@ -923,7 +923,7 @@ PrefabInstance:
     - target: {fileID: 5562407287005391864, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
       propertyPath: m_Text
-      value: "\u6635\u79F0\u7EDF\u8BA1"
+      value: Nickname
       objectReference: {fileID: 0}
     - target: {fileID: 5562407287369742200, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
@@ -1236,7 +1236,7 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "\u9009\u62E9\u7F16\u8F91\u5668"
+      value: Select Editor
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}

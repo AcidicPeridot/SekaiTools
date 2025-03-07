@@ -1053,7 +1053,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9009\u62E9\u64AD\u653E\u5668\u7C7B\u578B"
+  m_Text: Select Player Type
 --- !u!1 &6458655959825468014
 GameObject:
   m_ObjectHideFlags: 0

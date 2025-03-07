@@ -22,7 +22,7 @@ namespace SekaiTools.UI.L2DModelManagement
                 return;
             }
             txtName.text = modelInfo.modelName;
-            txtInfo.text = modelInfo.ifInbuilt ? "内置模型" : $"本地模型，位置{modelInfo.modelPath}";
+            txtInfo.text = modelInfo.ifInbuilt ? "Built-in model" : $"Local model, from{modelInfo.modelPath}";
             imgPreview.sprite = L2DModelLoader.GetPreview(modelInfo.modelName);
 
             if (btnDelete != null)
@@ -40,7 +40,7 @@ namespace SekaiTools.UI.L2DModelManagement
 
         public void SetDataNull()
         {
-            txtName.text = "请选择模型";
+            txtName.text = "Please select a model";
             txtInfo.text = string.Empty;
             imgPreview.sprite = L2DModelLoader.GetPreview(null);
             if (btnDelete != null)

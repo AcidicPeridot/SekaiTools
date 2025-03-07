@@ -107,7 +107,7 @@ namespace SekaiTools.UI.Radio
 
         public void ProcessRequest(string inputString,string userName)
         {
-            Debug.Log($"收到指令 @{userName} {inputString}");
+            Debug.Log($"Received command @{userName} {inputString}");
             string[] cmdArray = inputString.Split(' ');
             string cmd = cmdArray[0].Substring(1);
             cmd = cMDAliases.GetValue(cmd) ?? cmd;
@@ -134,7 +134,7 @@ namespace SekaiTools.UI.Radio
                     ReturnToMainPage(userName);
                     return;
                 default:
-                    messageLayer.AddMessage(new RadioMessage(userName, MessageType.error, "不支持的指令"));
+                    messageLayer.AddMessage(new RadioMessage(userName, MessageType.error, "Unsupported command"));
                     return;
             }
         }
@@ -162,12 +162,12 @@ namespace SekaiTools.UI.Radio
         {
             if (currentPage != WelcomeLayer)
             {
-                messageLayer.AddMessage(userName, MessageType.error, "请等待当前页面显示完毕或关闭当前页面再打开新页面");
+                messageLayer.AddMessage(userName, MessageType.error, "Please wait for the current page to finish displaying or close the current page before opening a new one");
                 return false;
             }
             if (isSwitchingPage)
             {
-                messageLayer.AddMessage(userName, MessageType.error, "请等待页面淡入/淡出完毕再执行指令");
+                messageLayer.AddMessage(userName, MessageType.error, "Please wait until the page fades in/out before executing a command");
                 return false;
             }
             return true;
@@ -179,25 +179,25 @@ namespace SekaiTools.UI.Radio
 
             if (isSwitchingPage)
             {
-                messageLayer.AddMessage(userName, MessageType.error, "请等待页面淡入/淡出完毕再执行指令");
+                messageLayer.AddMessage(userName, MessageType.error, "Please wait until the page fades in/out before executing a command");
                 return false;
             }
 
             if (returnableWindow == null)
             {
-                messageLayer.AddMessage(userName, MessageType.error, "当前页面不可返回");
+                messageLayer.AddMessage(userName, MessageType.error, "Current page not returnable");
                 return false;
             }
 
             if (returnableWindow.ReturnPermission == ReturnPermission.unable)
             {
-                messageLayer.AddMessage(userName, MessageType.error, "现在不可返回主页");
+                messageLayer.AddMessage(userName, MessageType.error, "Home page not returnable now");
                 return false;
             }
             else if(returnableWindow.ReturnPermission == ReturnPermission.sender
                 && !returnableWindow.SenderUserName.Equals(userName))
             {
-                messageLayer.AddMessage(userName, MessageType.error, "当前只有打开页面的用户可以关闭此页面");
+                messageLayer.AddMessage(userName, MessageType.error, "Only the user who currently has the page open can close this page");
                 return false;
             }
             return true;
@@ -231,7 +231,7 @@ namespace SekaiTools.UI.Radio
         public bool CheckLayerEnabled(Radio_OptionalLayer optionalLayer,string userName)
         {
             if(!optionalLayer.EnableLayer)
-                messageLayer.AddMessage(new RadioMessage(userName,MessageType.error,"当前电台没有开启此功能"));
+                messageLayer.AddMessage(new RadioMessage(userName,MessageType.error,"The current radio station does not have this feature enabled"));
             return optionalLayer.EnableLayer;
         }
 
@@ -243,7 +243,7 @@ namespace SekaiTools.UI.Radio
         }
 
         #region 点歌
-        private const string msg_OM_FormatError = "点歌指令格式错误";
+        private const string msg_OM_FormatError = "Points of order format error";
 
         public void OrderMusic(string[] cmdArray, string userName)
         {
@@ -268,7 +268,7 @@ namespace SekaiTools.UI.Radio
         #endregion
 
         #region 对话查询
-        private const string msg_SQ_FormatError = "查询指令缺少参数";
+        private const string msg_SQ_FormatError = "Missing parameter for query directive";
 
         public void SerifQuery(string[] cmdArray, string userName)
         {
@@ -303,10 +303,10 @@ namespace SekaiTools.UI.Radio
             while (keepWaiting)
                 yield return 1;
 
-            Debug.Log("查询完成");
+            Debug.Log("Query complete");
 
             if (serifQueryResult.resultCountMatrices.Count == 0)
-                messageLayer.AddMessage(userName, MessageType.success, "未查询到指定的对话");
+                messageLayer.AddMessage(userName, MessageType.success, "The specified dialog was not queried");
             else
             {
                 if (CanOpenPage(userName))
@@ -322,7 +322,7 @@ namespace SekaiTools.UI.Radio
                     });
                 }
                 else
-                    messageLayer.AddMessage(userName, MessageType.error, $"请等待当前查询结果显示完毕再次查询");
+                    messageLayer.AddMessage(userName, MessageType.error, $"Please wait for the current query to finish displaying results before querying again");
             }
         }
         #endregion
@@ -364,7 +364,7 @@ namespace SekaiTools.UI.Radio
 
             MusicListQueryResult musicListQueryResult = musicListLayer.Query(new MusicListQueryInfo(fitters));
             if (musicListQueryResult.resultItems.Count == 0)
-                messageLayer.AddMessage(userName, MessageType.error, "未查询到指定分类的歌曲");
+                messageLayer.AddMessage(userName, MessageType.error, "Songs in the specified category are not queried");
             else
             {
                 if(CanOpenPage(userName))
@@ -388,7 +388,7 @@ namespace SekaiTools.UI.Radio
         {
             if(musicLayer.PlayList.Length <= 0)
             {
-                messageLayer.AddMessage(userName, MessageType.error, "当前播放列表为空");
+                messageLayer.AddMessage(userName, MessageType.error, "The current playlist is empty");
                 return;
             }
 

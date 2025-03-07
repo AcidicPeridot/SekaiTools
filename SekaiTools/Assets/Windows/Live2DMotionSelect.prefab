@@ -154,7 +154,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Live2D\u52A8\u4F5C\u9009\u62E9"
+  m_Text: Select Live2D Motion
 --- !u!1 &1279932104119989751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1885,7 +1885,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.00071339763}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!1001 &5448626485921416030
@@ -1903,12 +1903,12 @@ PrefabInstance:
     - target: {fileID: 4735276991539140040, guid: eccdab52ed558fa429d2a3d0a67d780e,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4735276991539140042, guid: eccdab52ed558fa429d2a3d0a67d780e,
         type: 3}
       propertyPath: m_Size
-      value: 1
+      value: 0.9999979
       objectReference: {fileID: 0}
     - target: {fileID: 4735276991539140043, guid: eccdab52ed558fa429d2a3d0a67d780e,
         type: 3}

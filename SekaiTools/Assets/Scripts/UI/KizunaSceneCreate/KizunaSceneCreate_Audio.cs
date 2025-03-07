@@ -72,7 +72,7 @@ namespace SekaiTools.UI.KizunaSceneCreate
             }
             catch(System.Exception ex)
             {
-                kizunaSceneCreate.window.ShowMessageBox("读取失败", ex.GetType().ToString());
+                kizunaSceneCreate.window.ShowMessageBox("Failed to read", ex.GetType().ToString());
             }
         
             kizunaSceneCreate.Refresh();

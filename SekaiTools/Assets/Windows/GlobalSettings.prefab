@@ -199,7 +199,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "SekaiViewer\n\u8FDE\u63A5\u8BBE\u7F6E"
+  m_Text: 'SekaiViewer
+
+    Connection Settings'
 --- !u!1 &4190177849350440316
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,7 +444,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Live2D\u6A21\u578B\u8BBE\u5B9A"
+  m_Text: 'Live2D Model
+
+    Settings'
 --- !u!1 &4314805488217301283
 GameObject:
   m_ObjectHideFlags: 0
@@ -833,7 +837,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5168\u5C40\u8BBE\u7F6E"
+  m_Text: Global Settings
 --- !u!1 &4314805488937744997
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,7 +916,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u80CC\u666F\u8BBE\u5B9A"
+  m_Text: 'Background
+
+    Settings'
 --- !u!1 &4314805489223220142
 GameObject:
   m_ObjectHideFlags: 0
@@ -1465,7 +1471,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5173\u95ED"
+  m_Text: Cancel
 --- !u!1 &4314805489924156141
 GameObject:
   m_ObjectHideFlags: 0
@@ -1544,7 +1550,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Live2D\n\u52A8\u753B\u96C6\u5408\u8BBE\u5B9A"
+  m_Text: "Live2D Animation\n Set Settings"
 --- !u!1 &4408205513093994398
 GameObject:
   m_ObjectHideFlags: 0
@@ -1623,7 +1629,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7CFB\u7EDF\u8BBE\u7F6E"
+  m_Text: System Settings
 --- !u!1 &4676961317362298750
 GameObject:
   m_ObjectHideFlags: 0
@@ -1702,7 +1708,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Spine\u52A8\u753B\u8868\u60C5\u5305\n\u751F\u6210\u5668"
+  m_Text: 'Spine Animation
+
+    GIF Generator'
 --- !u!1 &5553636514537183764
 GameObject:
   m_ObjectHideFlags: 0
@@ -1817,6 +1825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlScript: {fileID: 137959554134535971}
+  mainCameraRender: 0
   parentWindowEffect: 0
   parentWindowRaycast: 1
   OnClose:
@@ -2106,7 +2115,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Live2D\u6A21\u578B\u9884\u89C8"
+  m_Text: 'Live2D Model
+
+    Preview Generator'
 --- !u!1 &7060938913678733681
 GameObject:
   m_ObjectHideFlags: 0
@@ -2381,7 +2392,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Live2D\u52A8\u753B\n\u9884\u89C8\u751F\u6210\u5668"
+  m_Text: Live2D Animation Preview Generator
 --- !u!1 &9219906942063705232
 GameObject:
   m_ObjectHideFlags: 0

@@ -1508,7 +1508,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7F29\u653E"
+  m_Text: Scale
 --- !u!1 &3473545739219955758
 GameObject:
   m_ObjectHideFlags: 0
@@ -1812,7 +1812,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u53D8\u6362"
+  m_Text: Transform
 --- !u!1 &3473545739537345432
 GameObject:
   m_ObjectHideFlags: 0
@@ -1891,7 +1891,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u52A8\u753B\uFF08\u6309space\u5FEB\u6377\u64AD\u653E\uFF09"
+  m_Text: "Animation\n(Press Space for Quick Play\uFF09"
 --- !u!1 &3473545739582159795
 GameObject:
   m_ObjectHideFlags: 0
@@ -2007,8 +2007,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 95, y: -186}
-  m_SizeDelta: {x: 360, y: 50}
+  m_AnchoredPosition: {x: 120, y: -186}
+  m_SizeDelta: {x: 335, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &3473545739641683909
 CanvasRenderer:
@@ -3819,7 +3819,6 @@ MonoBehaviour:
   transformArea: {fileID: 3473545738868972790}
   l2DController: {fileID: 5189168659505285836}
   gobjEditArea: {fileID: 3473545739987194213}
-  animationSet: {fileID: 11400000, guid: 5dda02205b79d584b81e4bbdb7461f88, type: 2}
   l2DModelSelectorPrefab: {fileID: 2007609146520238390, guid: b5537cce036a64a4c8331ffb56aec4a6,
     type: 3}
 --- !u!1001 &477922011068715245
@@ -4845,7 +4844,7 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "Live2D\u6A21\u578B\u9884\u89C8"
+      value: Preview Live2D Model
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}

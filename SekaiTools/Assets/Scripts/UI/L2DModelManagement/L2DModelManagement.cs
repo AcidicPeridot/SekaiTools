@@ -32,12 +32,12 @@ namespace SekaiTools.UI.L2DModelManagement
 
         private void Awake()
         {
-            fileDialog.Title = "选择模型";
+            fileDialog.Title = "Select Model";
             fileDialog.Filter = "Models (*.model3.json)|*.model3.json|Motions (*.motion3.json)|*.motion3.json|Others (*.*)|*.*";
             fileDialog.FilterIndex = 1;
             fileDialog.RestoreDirectory = true;
 
-            folderBrowserDialog.Description = "选择存放模型文件夹的文件夹";
+            folderBrowserDialog.Description = "Select Model Folder";
 
             GenerateItem();
         }
@@ -88,7 +88,7 @@ namespace SekaiTools.UI.L2DModelManagement
 
         public void DeleteModel()
         {
-            WindowController.ShowCancelOK("注意", $"确定要移除模型 {CurrentModelInfo.modelName} 吗？",
+            WindowController.ShowCancelOK("Caution", $"Are you sure you want to delete the model {CurrentModelInfo.modelName}?",
                 () =>
                 {
                     L2DModelLoader.RemoveModel(CurrentModelInfo.modelName);

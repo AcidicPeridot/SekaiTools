@@ -457,6 +457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlScript: {fileID: 1691272440729276076}
+  mainCameraRender: 0
   parentWindowEffect: 1
   parentWindowRaycast: 1
   OnClose:
@@ -876,7 +877,7 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "\u9009\u62E9\u7F16\u8F91\u5668"
+      value: Select Editor
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
@@ -922,7 +923,7 @@ PrefabInstance:
     - target: {fileID: 5562407287005391864, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
       propertyPath: m_Text
-      value: "Re:Stage! \nPrism Step \n\u8D44\u6E90\u5217\u8868\u4E0B\u8F7D\u5668"
+      value: "Re:Stage! \nPrism Step \nAsset List Downloader"
       objectReference: {fileID: 0}
     - target: {fileID: 5562407287369742206, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}

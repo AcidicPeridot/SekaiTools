@@ -435,7 +435,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u786E\u5B9A"
+  m_Text: Apply
 --- !u!1 &303677402934082044
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,6 +550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlScript: {fileID: 303677402769328816}
+  mainCameraRender: 0
   parentWindowEffect: 1
   parentWindowRaycast: 1
   OnClose:
@@ -888,7 +889,7 @@ PrefabInstance:
     - target: {fileID: 3737195362018688938, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u8F93\u51FA\u6587\u4EF6"
+      value: Output
       objectReference: {fileID: 0}
     - target: {fileID: 3737195363103087863, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
@@ -1068,7 +1069,7 @@ PrefabInstance:
     - target: {fileID: 4804129968225264594, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u8F93\u51FA\u6587\u4EF6"
+      value: Output
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d89a980d3869864b9e0015949b1f0fe, type: 3}
@@ -1088,7 +1089,7 @@ PrefabInstance:
     - target: {fileID: 3737195362018688938, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u8F93\u5165\u6587\u4EF6"
+      value: Input
       objectReference: {fileID: 0}
     - target: {fileID: 3737195363103087863, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
@@ -1268,7 +1269,7 @@ PrefabInstance:
     - target: {fileID: 4804129968225264594, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u8F93\u5165\u6587\u4EF6"
+      value: Input
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d89a980d3869864b9e0015949b1f0fe, type: 3}
@@ -1288,7 +1289,7 @@ PrefabInstance:
     - target: {fileID: 3737195362018688938, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u6570\u636E\u8868"
+      value: Master Tables
       objectReference: {fileID: 0}
     - target: {fileID: 3737195363103087863, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
@@ -1468,7 +1469,7 @@ PrefabInstance:
     - target: {fileID: 4804129968225264594, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u6570\u636E\u8868"
+      value: Master Tables
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d89a980d3869864b9e0015949b1f0fe, type: 3}
@@ -1628,12 +1629,22 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "\u6B4C\u66F2BPM\u8868\u683C\u751F\u6210\u5668\u521D\u59CB\u5316"
+      value: Inizialize BPM Data CSV Generator
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
       value: INITIALIZE
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140956335463184399, guid: dd05059dbfecd374f82ccfa7699339ca,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 757.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140956335463184399, guid: dd05059dbfecd374f82ccfa7699339ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 509.43726
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd05059dbfecd374f82ccfa7699339ca, type: 3}
@@ -1653,7 +1664,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: "\u4FDD\u5B58\u6587\u4EF6"
+      value: Output Data
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
@@ -1765,6 +1776,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GSW_Label
       objectReference: {fileID: 0}
+    - target: {fileID: 5389786328216730733, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b19596c2b121ea4b9fef4e8dc10c71a, type: 3}
 --- !u!224 &5691070976583742255 stripped
@@ -1783,7 +1799,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: "\u6240\u9700\u6570\u636E\u8868"
+      value: Required Master Tables
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
@@ -1913,7 +1929,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: "\u5B58\u653E\u8C31\u9762\u7684\u6587\u4EF6\u5939"
+      value: Score Directory
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
@@ -2045,6 +2061,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1054051869678378613, guid: c2e471664827c4e42a5c22507044f66e,
+        type: 3}
+      propertyPath: m_Text
+      value: Reset
+      objectReference: {fileID: 0}
     - target: {fileID: 1054051870023331988, guid: c2e471664827c4e42a5c22507044f66e,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2160,6 +2181,21 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3000375339773373381, guid: c2e471664827c4e42a5c22507044f66e,
+        type: 3}
+      propertyPath: m_Text
+      value: Select Folder
+      objectReference: {fileID: 0}
+    - target: {fileID: 3000375340876927823, guid: c2e471664827c4e42a5c22507044f66e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3000375341251592164, guid: c2e471664827c4e42a5c22507044f66e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2e471664827c4e42a5c22507044f66e, type: 3}
 --- !u!114 &285729125836955490 stripped
@@ -2191,6 +2227,16 @@ PrefabInstance:
         type: 3}
       propertyPath: fileFilter
       value: CSV (*.csv)|*.csv|Others (*.*)|*.*
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961337316662349046, guid: ac70e5bcb401b5847b99be699b856318,
+        type: 3}
+      propertyPath: m_Text
+      value: Select
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482859041544747334, guid: ac70e5bcb401b5847b99be699b856318,
+        type: 3}
+      propertyPath: m_Text
+      value: Reset
       objectReference: {fileID: 0}
     - target: {fileID: 8482859041870813094, guid: ac70e5bcb401b5847b99be699b856318,
         type: 3}
@@ -2329,10 +2375,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1778952064629154462}
     m_Modifications:
+    - target: {fileID: 7912123372791210577, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: Update
+      objectReference: {fileID: 0}
     - target: {fileID: 7912123373294757672, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}
       propertyPath: m_Name
       value: MasterRefUpdateItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912123373294757672, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7912123373294757675, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}
@@ -2438,6 +2494,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912123374647625504, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Last Updated :'
       objectReference: {fileID: 0}
     - target: {fileID: 8961239559178928585, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}

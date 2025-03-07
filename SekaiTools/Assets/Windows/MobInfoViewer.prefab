@@ -615,7 +615,7 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "\u67E5\u770B\u914D\u89D2\u4FE1\u606F"
+      value: View Mob Info
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
@@ -765,7 +765,7 @@ PrefabInstance:
     - target: {fileID: 4417638728360884345, guid: 3f6b277b8bb272f41af720ea50b4294b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00013474523
+      value: 0.00053589104
       objectReference: {fileID: 0}
     - target: {fileID: 4417638730013756536, guid: 3f6b277b8bb272f41af720ea50b4294b,
         type: 3}

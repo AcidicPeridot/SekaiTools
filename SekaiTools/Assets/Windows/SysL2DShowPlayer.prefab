@@ -544,7 +544,7 @@ PrefabInstance:
     - target: {fileID: 3716628556734872992, guid: b3ce3b0ef570a31499860e4045a37410,
         type: 3}
       propertyPath: m_Text
-      value: "\u6309 \u56DE\u8F66 \u5F00\u59CB\u64AD\u653E"
+      value: Press Enter to begin playback.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3ce3b0ef570a31499860e4045a37410, type: 3}

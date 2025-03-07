@@ -758,7 +758,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6A21\u578B"
+  m_Text: Model
 --- !u!1 &6015922260306374635
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,7 +837,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6355\u6349\u533A\u57DF"
+  m_Text: Capture Area
 --- !u!1 &6015922260734462843
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,7 +916,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8BBE\u7F6E\u52A8\u753B"
+  m_Text: Set Animation
 --- !u!1 &6015922260901866262
 GameObject:
   m_ObjectHideFlags: 0
@@ -1251,7 +1251,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u751F\u6210"
+  m_Text: Apply
 --- !u!1 &6015922261233400808
 GameObject:
   m_ObjectHideFlags: 0
@@ -1434,8 +1434,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -105.00003, y: 50}
-  m_SizeDelta: {x: -259.99994, y: 56}
+  m_AnchoredPosition: {x: -115.156, y: 50}
+  m_SizeDelta: {x: -280.312, y: 56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6015922261307380318
 CanvasRenderer:
@@ -1553,7 +1553,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6A21\u5F0F"
+  m_Text: File Type
 --- !u!1 &6015922261454183031
 GameObject:
   m_ObjectHideFlags: 0
@@ -1839,8 +1839,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -117.5, y: 50}
-  m_SizeDelta: {x: 200, y: 76}
+  m_AnchoredPosition: {x: -133.75, y: 50}
+  m_SizeDelta: {x: 217.5, y: 76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6015922261827347620
 CanvasRenderer:
@@ -2185,7 +2185,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8D28\u91CF"
+  m_Text: Quality
 --- !u!1 &7774324791537809531
 GameObject:
   m_ObjectHideFlags: 0
@@ -2879,12 +2879,22 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "Spine\u52A8\u753B\u8868\u60C5\u5305\u751F\u6210\u5668"
+      value: Spine Animation GIF Generator
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
       value: ANIMATION
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140956335463184399, guid: dd05059dbfecd374f82ccfa7699339ca,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 676.081
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140956335463184399, guid: dd05059dbfecd374f82ccfa7699339ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 468.54
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd05059dbfecd374f82ccfa7699339ca, type: 3}
@@ -3106,7 +3116,9 @@ PrefabInstance:
     - target: {fileID: 1013506275644586689, guid: cd9b50e38895b064f912d98583ff5f50,
         type: 3}
       propertyPath: m_Text
-      value: "PNG\u5E8F\u5217\uFF08\u4FDD\u7559\u80CC\u666F\uFF09"
+      value: 'PNG sequence
+
+        (with background)'
       objectReference: {fileID: 0}
     - target: {fileID: 1013506275644586689, guid: cd9b50e38895b064f912d98583ff5f50,
         type: 3}
@@ -3151,17 +3163,17 @@ PrefabInstance:
     - target: {fileID: 4261874373667679298, guid: cd9b50e38895b064f912d98583ff5f50,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 57
+      value: 84.211
       objectReference: {fileID: 0}
     - target: {fileID: 4261874373667679298, guid: cd9b50e38895b064f912d98583ff5f50,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 90
+      value: 86
       objectReference: {fileID: 0}
     - target: {fileID: 4261874373667679298, guid: cd9b50e38895b064f912d98583ff5f50,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.5000305
+      value: 0.000005722
       objectReference: {fileID: 0}
     - target: {fileID: 8603921072893562482, guid: cd9b50e38895b064f912d98583ff5f50,
         type: 3}
@@ -3206,7 +3218,7 @@ PrefabInstance:
     - target: {fileID: 8603921072893562482, guid: cd9b50e38895b064f912d98583ff5f50,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 60
+      value: 57.732
       objectReference: {fileID: 0}
     - target: {fileID: 8603921072893562482, guid: cd9b50e38895b064f912d98583ff5f50,
         type: 3}
@@ -3303,7 +3315,9 @@ PrefabInstance:
     - target: {fileID: 1013506275644586689, guid: cd9b50e38895b064f912d98583ff5f50,
         type: 3}
       propertyPath: m_Text
-      value: "PNG\u5E8F\u5217\uFF08\u900F\u660E\u80CC\u666F\uFF09"
+      value: 'PNG sequence
+
+        (transparent)'
       objectReference: {fileID: 0}
     - target: {fileID: 1013506275644586689, guid: cd9b50e38895b064f912d98583ff5f50,
         type: 3}
@@ -3348,17 +3362,17 @@ PrefabInstance:
     - target: {fileID: 4261874373667679298, guid: cd9b50e38895b064f912d98583ff5f50,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 57
+      value: 94.211
       objectReference: {fileID: 0}
     - target: {fileID: 4261874373667679298, guid: cd9b50e38895b064f912d98583ff5f50,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 90
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 4261874373667679298, guid: cd9b50e38895b064f912d98583ff5f50,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.5000305
+      value: 0.0000019073
       objectReference: {fileID: 0}
     - target: {fileID: 8603921072893562482, guid: cd9b50e38895b064f912d98583ff5f50,
         type: 3}
@@ -3495,7 +3509,7 @@ PrefabInstance:
     - target: {fileID: 4508918379651380703, guid: aa9ae333015e9b9418418d8c48c8c32b,
         type: 3}
       propertyPath: m_Text
-      value: "\u5927\u5C0F"
+      value: Size
       objectReference: {fileID: 0}
     - target: {fileID: 4508918379894434214, guid: aa9ae333015e9b9418418d8c48c8c32b,
         type: 3}
@@ -3674,7 +3688,7 @@ PrefabInstance:
     - target: {fileID: 5992481073021646765, guid: 23324639d93a04c4bbac27f82c37280a,
         type: 3}
       propertyPath: m_Text
-      value: "\u5E27\u7387"
+      value: FPS
       objectReference: {fileID: 0}
     - target: {fileID: 7062078771430950568, guid: 23324639d93a04c4bbac27f82c37280a,
         type: 3}
@@ -3843,6 +3857,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6015922260901866263}
     m_Modifications:
+    - target: {fileID: 4508918379651380703, guid: aa9ae333015e9b9418418d8c48c8c32b,
+        type: 3}
+      propertyPath: m_Text
+      value: Position
+      objectReference: {fileID: 0}
     - target: {fileID: 4508918379894434214, guid: aa9ae333015e9b9418418d8c48c8c32b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

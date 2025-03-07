@@ -309,7 +309,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u591A\u670D\u52A1\u5668\u8868\u683C\u83B7\u53D6\u5668"
+  m_Text: Multi-Server Table Fetcher
 --- !u!1 &385897626477793936
 GameObject:
   m_ObjectHideFlags: 0
@@ -1061,7 +1061,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u786E\u5B9A"
+  m_Text: OK
 --- !u!1 &1087839638898615230
 GameObject:
   m_ObjectHideFlags: 0
@@ -1305,7 +1305,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u53D6\u6D88"
+  m_Text: Cancel
 --- !u!1 &1087839639055661208
 GameObject:
   m_ObjectHideFlags: 0
@@ -1513,7 +1513,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9009\u62E9\u8BED\u8A00"
+  m_Text: Select Language
 --- !u!1 &1087839639660596637
 GameObject:
   m_ObjectHideFlags: 0
@@ -1593,7 +1593,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u66F4\u65B0\u8868\u683C"
+  m_Text: Update Tables
 --- !u!1 &6865387899708479567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1880,7 +1880,27 @@ PrefabInstance:
     - target: {fileID: 1532206033701797068, guid: 578253d3c1dfedb4ba60d5e1ad3a807a,
         type: 3}
       propertyPath: m_Text
-      value: "\u7E41\u4F53\u4E2D\u6587"
+      value: Traditional Chinese (Taiwan)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532206033701797068, guid: 578253d3c1dfedb4ba60d5e1ad3a807a,
+        type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532206033701797068, guid: 578253d3c1dfedb4ba60d5e1ad3a807a,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2339329710101670479, guid: 578253d3c1dfedb4ba60d5e1ad3a807a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 15.364
+      objectReference: {fileID: 0}
+    - target: {fileID: 2339329710101670479, guid: 578253d3c1dfedb4ba60d5e1ad3a807a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 87.683
       objectReference: {fileID: 0}
     - target: {fileID: 7797010180146481279, guid: 578253d3c1dfedb4ba60d5e1ad3a807a,
         type: 3}
@@ -2032,7 +2052,7 @@ PrefabInstance:
     - target: {fileID: 1532206033701797068, guid: 578253d3c1dfedb4ba60d5e1ad3a807a,
         type: 3}
       propertyPath: m_Text
-      value: "\u82F1\u6587"
+      value: English
       objectReference: {fileID: 0}
     - target: {fileID: 7797010180146481279, guid: 578253d3c1dfedb4ba60d5e1ad3a807a,
         type: 3}
@@ -2184,7 +2204,7 @@ PrefabInstance:
     - target: {fileID: 1532206033701797068, guid: 578253d3c1dfedb4ba60d5e1ad3a807a,
         type: 3}
       propertyPath: m_Text
-      value: "\u97E9\u6587"
+      value: Korean
       objectReference: {fileID: 0}
     - target: {fileID: 7797010180146481279, guid: 578253d3c1dfedb4ba60d5e1ad3a807a,
         type: 3}
@@ -2318,6 +2338,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1087839637765347200}
     m_Modifications:
+    - target: {fileID: 7912123372791210577, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: Update
+      objectReference: {fileID: 0}
     - target: {fileID: 7912123373294757672, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}
       propertyPath: m_Name
@@ -2428,6 +2453,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7912123374647625504, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Last Updated:'
+      objectReference: {fileID: 0}
     - target: {fileID: 8961239559178928585, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}
       propertyPath: serverRegion
@@ -2460,6 +2490,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1087839637765347200}
     m_Modifications:
+    - target: {fileID: 7912123372791210577, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: Update
+      objectReference: {fileID: 0}
     - target: {fileID: 7912123373294757672, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}
       propertyPath: m_Name
@@ -2570,6 +2605,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7912123374647625504, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Last Updated:'
+      objectReference: {fileID: 0}
     - target: {fileID: 8961239559178928585, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}
       propertyPath: serverRegion
@@ -2620,7 +2660,7 @@ PrefabInstance:
     - target: {fileID: 1532206033701797068, guid: 578253d3c1dfedb4ba60d5e1ad3a807a,
         type: 3}
       propertyPath: m_Text
-      value: "\u65E5\u6587"
+      value: Japanese
       objectReference: {fileID: 0}
     - target: {fileID: 7797010180146481279, guid: 578253d3c1dfedb4ba60d5e1ad3a807a,
         type: 3}
@@ -2754,6 +2794,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1087839637765347200}
     m_Modifications:
+    - target: {fileID: 7912123372791210577, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: Update
+      objectReference: {fileID: 0}
     - target: {fileID: 7912123373294757672, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}
       propertyPath: m_Name
@@ -2864,6 +2909,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7912123374647625504, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Last Updated:'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d30bf384a3b6014babe92a1c862870c, type: 3}
 --- !u!224 &7121679934120220103 stripped
@@ -2891,6 +2941,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1087839637765347200}
     m_Modifications:
+    - target: {fileID: 7912123372791210577, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: Update
+      objectReference: {fileID: 0}
     - target: {fileID: 7912123373294757672, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}
       propertyPath: m_Name
@@ -3000,6 +3055,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912123374647625504, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Last Updated:'
       objectReference: {fileID: 0}
     - target: {fileID: 8961239559178928585, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}

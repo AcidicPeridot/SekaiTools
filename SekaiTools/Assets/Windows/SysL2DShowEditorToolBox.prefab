@@ -678,7 +678,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9009\u62E9\u5DE5\u5177"
+  m_Text: Selection Toolbox
 --- !u!1 &6652443806440417354
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,7 +822,7 @@ PrefabInstance:
     - target: {fileID: 606184061077637186, guid: 27e496cb18daac346a63adefa25b5b21,
         type: 3}
       propertyPath: m_Text
-      value: "\u8F7D\u5165\u5176\u4ED6\u670D\u52A1\u5668\u7FFB\u8BD1"
+      value: Load Other Server Translations
       objectReference: {fileID: 0}
     - target: {fileID: 606184061077637186, guid: 27e496cb18daac346a63adefa25b5b21,
         type: 3}
@@ -969,7 +969,7 @@ PrefabInstance:
     - target: {fileID: 606184061077637186, guid: 27e496cb18daac346a63adefa25b5b21,
         type: 3}
       propertyPath: m_Text
-      value: "\u5FEB\u901F\u8986\u5199\u65F6\u95F4"
+      value: Quick Override Time
       objectReference: {fileID: 0}
     - target: {fileID: 606184061077637186, guid: 27e496cb18daac346a63adefa25b5b21,
         type: 3}

@@ -432,7 +432,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u786E\u5B9A"
+  m_Text: Apply
 --- !u!1 &1087710891046948063
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,7 +919,7 @@ PrefabInstance:
     - target: {fileID: 3737195362018688938, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
       propertyPath: m_Text
-      value: "\u6570\u636E\u8868"
+      value: Master Tables
       objectReference: {fileID: 0}
     - target: {fileID: 3737195363103087863, guid: 6d89a980d3869864b9e0015949b1f0fe,
         type: 3}
@@ -1254,12 +1254,22 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "\u5206\u7EC4\u5668 (20\u4EBA) \u521D\u59CB\u5316"
+      value: Initialize Grouper (20 people)
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
       value: INITIALIZE
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140956335463184399, guid: dd05059dbfecd374f82ccfa7699339ca,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 641.948
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140956335463184399, guid: dd05059dbfecd374f82ccfa7699339ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 451.4739
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd05059dbfecd374f82ccfa7699339ca, type: 3}
@@ -1279,7 +1289,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: "\u7275\u7ECA\u79F0\u53F7"
+      value: Bonds Title
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
@@ -1420,6 +1430,10 @@ MonoBehaviour:
   masterRefUpdateItems:
   - {fileID: 6834376626400159804}
   - {fileID: 925757071327648594}
+  universalGenerator: {fileID: 0}
+  btnUpdateAll: {fileID: 0}
+  updateOn: {fileID: 0}
+  txtUpdate: {fileID: 0}
 --- !u!1001 &2487151043157841612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1429,7 +1443,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6007087167293140, guid: 70efa831f47ebd64c9ec20e435552257, type: 3}
       propertyPath: m_Text
-      value: "\u4F7F\u7528\u7275\u7ECA\u79F0\u53F7"
+      value: Use Bonds Title
       objectReference: {fileID: 0}
     - target: {fileID: 4370670236027206609, guid: 70efa831f47ebd64c9ec20e435552257,
         type: 3}
@@ -1568,6 +1582,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2487151044000653706}
     m_Modifications:
+    - target: {fileID: 7912123372791210577, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: Update
+      objectReference: {fileID: 0}
     - target: {fileID: 7912123373294757672, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}
       propertyPath: m_Name
@@ -1678,6 +1697,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7912123374647625504, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Last Updated:'
+      objectReference: {fileID: 0}
     - target: {fileID: 8961239559178928585, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}
       propertyPath: masterName
@@ -1718,7 +1742,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6007087167293140, guid: 70efa831f47ebd64c9ec20e435552257, type: 3}
       propertyPath: m_Text
-      value: "\u4F7F\u75285v5\u961F\u4F0D\u540D\u79F0"
+      value: Use 5v5 Team Name
       objectReference: {fileID: 0}
     - target: {fileID: 4370670236027206609, guid: 70efa831f47ebd64c9ec20e435552257,
         type: 3}
@@ -1880,7 +1904,7 @@ PrefabInstance:
     - target: {fileID: 5389786326418903918, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
       propertyPath: m_Text
-      value: "5v5\u961F\u4F0D\u540D\u79F0"
+      value: 5v5 Team Name
       objectReference: {fileID: 0}
     - target: {fileID: 5389786328216730732, guid: 3b19596c2b121ea4b9fef4e8dc10c71a,
         type: 3}
@@ -2020,6 +2044,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   masterRefUpdateItems:
   - {fileID: 6834376626049730887}
+  universalGenerator: {fileID: 0}
+  btnUpdateAll: {fileID: 0}
+  updateOn: {fileID: 0}
+  txtUpdate: {fileID: 0}
 --- !u!1001 &2487151043823643125
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2027,6 +2055,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2487151044000653706}
     m_Modifications:
+    - target: {fileID: 7912123372791210577, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: Update
+      objectReference: {fileID: 0}
     - target: {fileID: 7912123373294757672, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}
       propertyPath: m_Name
@@ -2137,6 +2170,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7912123374647625504, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Last Updated:'
+      objectReference: {fileID: 0}
     - target: {fileID: 8961239559178928585, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}
       propertyPath: masterName
@@ -2169,6 +2207,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2487151044000653706}
     m_Modifications:
+    - target: {fileID: 7912123372791210577, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: Update
+      objectReference: {fileID: 0}
     - target: {fileID: 7912123373294757672, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}
       propertyPath: m_Name
@@ -2278,6 +2321,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912123374647625504, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Last Updated:'
       objectReference: {fileID: 0}
     - target: {fileID: 8961239559178928585, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}

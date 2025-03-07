@@ -189,15 +189,15 @@ namespace SekaiTools.UI.KizunaSceneCreate
             List<string> errorList = new List<string>();
             if (IfNewFile && CreatedData == null)
             {
-                errorList.Add("未选择片段");
+                errorList.Add("Unselected Fragment");
             }
 
             if (!IfNewFile)
             {
                 if (string.IsNullOrEmpty(file_LoadData.SelectedPath))
-                    errorList.Add("无效的目录");
+                    errorList.Add("Invalid directory");
                 if (!File.Exists(file_LoadData.SelectedPath))
-                    errorList.Add("文件不存在");
+                    errorList.Add("File does not exist");
             }
             return errorList;
         }

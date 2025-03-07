@@ -515,7 +515,7 @@ PrefabInstance:
     - target: {fileID: 5562407287005391864, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
       propertyPath: m_Text
-      value: "Spine\u6A21\u578B&\u52A8\u753B"
+      value: Spine Models & Animations
       objectReference: {fileID: 0}
     - target: {fileID: 5562407287369742200, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
@@ -724,7 +724,7 @@ PrefabInstance:
     - target: {fileID: 5562407287005391864, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
       propertyPath: m_Text
-      value: "\u7275\u7ECA\u4E92\u52A8\u573A\u666F"
+      value: Kizuna Scenes
       objectReference: {fileID: 0}
     - target: {fileID: 5562407287369742200, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
@@ -912,7 +912,7 @@ PrefabInstance:
     - target: {fileID: 5562407287005391864, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
       propertyPath: m_Text
-      value: "\u4E92\u52A8\u8BED\u97F3\u573A\u666F"
+      value: Interactive Voice (Cutin) Scenes
       objectReference: {fileID: 0}
     - target: {fileID: 5562407287369742201, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
@@ -1080,7 +1080,7 @@ PrefabInstance:
     - target: {fileID: 5562407287005391864, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
       propertyPath: m_Text
-      value: "\u7CFB\u7EDFLive2D"
+      value: System Live2D
       objectReference: {fileID: 0}
     - target: {fileID: 5562407287369742200, guid: e8283abf55e5f9d4c89c204cba41c31f,
         type: 3}
@@ -1648,7 +1648,7 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "\u9009\u62E9\u7F16\u8F91\u5668"
+      value: Select Editor
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}

@@ -148,7 +148,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -20, y: 60}
-  m_SizeDelta: {x: 225, y: 76}
+  m_SizeDelta: {x: 292.988, y: 76}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!222 &1248254183114918552
 CanvasRenderer:
@@ -554,7 +554,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u4E0B\u8F7D\u6B64\u6A21\u578B"
+  m_Text: Download Model
 --- !u!1 &2690421469696812600
 GameObject:
   m_ObjectHideFlags: 0
@@ -1127,7 +1127,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u203B \u66F4\u65B0\u6B64\u6570\u636E\u8868\u4EE5\u83B7\u53D6\u53EF\u4EE5\u4E0B\u8F7D\u7684\u6A21\u578B"
+  m_Text: "\u203B Update this table to get downloadable models"
 --- !u!1 &6951842379269321368
 GameObject:
   m_ObjectHideFlags: 0
@@ -1586,6 +1586,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2403976182411156809}
     m_Modifications:
+    - target: {fileID: 7912123372791210577, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: Update
+      objectReference: {fileID: 0}
     - target: {fileID: 7912123373151765962, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}
       propertyPath: m_Text
@@ -1715,6 +1720,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -38
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912123374647625504, guid: 5d30bf384a3b6014babe92a1c862870c,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Last Updated:'
       objectReference: {fileID: 0}
     - target: {fileID: 7912123374647625504, guid: 5d30bf384a3b6014babe92a1c862870c,
         type: 3}
@@ -1916,7 +1926,7 @@ PrefabInstance:
     - target: {fileID: 2183565817558862901, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
       propertyPath: m_Text
-      value: "Live2D\u6A21\u578B\u4E0B\u8F7D"
+      value: Download Live2D Model
       objectReference: {fileID: 0}
     - target: {fileID: 3854255404425234538, guid: dd05059dbfecd374f82ccfa7699339ca,
         type: 3}
